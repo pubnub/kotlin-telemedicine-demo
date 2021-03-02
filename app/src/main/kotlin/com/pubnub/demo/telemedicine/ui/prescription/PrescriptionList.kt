@@ -30,7 +30,7 @@ private val mockedPrescriptions = listOf(
         title = "Amoxicillin 250mg",
         physicianName = "Dr. Alexander Wolfe",
         dosage = "One to be taken three times a day after food",
-        physicianImage = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_smiling_handsome_male_doctor_man-abe6a9adfc322800a12e75590503ef09-6cd8a2.png",
+        physicianImage = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/portrait_smiling_handsome_male_doctor_man-abe6a9adfc322800a12e75590503ef09-6cd8a2.png",
         date = "8:12am",
     ),
     Prescription(
@@ -72,7 +72,7 @@ fun PrescriptionCard(
     title: String,
     description: String,
     content: String,
-    imageUrl: String? = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png",
+    imageUrl: String? = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png",
     changeTime: String = "09:47 AM",
     modifier: Modifier = Modifier,
 ) {
@@ -104,7 +104,7 @@ fun PrescriptionCardPreview() {
         title = "Amoxicillin 250mg",
         description = "Dr. Alexander Wolfe",
         content = "One to be taken three times a day after food",
-        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_smiling_handsome_male_doctor_man-abe6a9adfc322800a12e75590503ef09-6cd8a2.png",
+        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/portrait_smiling_handsome_male_doctor_man-abe6a9adfc322800a12e75590503ef09-6cd8a2.png",
         changeTime = "2:53pm",
     )
 }

@@ -30,7 +30,7 @@ fun ChatHeader(
     active: Boolean,
     title: String,
     description: String,
-    imageUrl: String? = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png",
+    imageUrl: String? = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png",
     modifier: Modifier = Modifier,
     backAction: (() -> Unit),
     profileAction: (() -> Unit)? = null,
@@ -155,7 +155,7 @@ private fun ChatHeaderDoctorPreview() {
         active = false,
         title = "Dr. Sam Smith",
         description = "Radiologist · Washington Hospital",
-        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/asian_young_main_group_hospital_professional-c0ba747cc87f47e9e774a98d96ab200e-9941ad.png",
+        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/asian_young_main_group_hospital_professional-c0ba747cc87f47e9e774a98d96ab200e-9941ad.png",
         backAction = {},
         callAction = {},
     )
@@ -168,7 +168,7 @@ private fun ChatHeaderPatientPreview() {
         active = true,
         title = "Saleha Ahmad",
         description = "47 yo",
-        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/asian_young_main_group_hospital_professional-c0ba747cc87f47e9e774a98d96ab200e-9941ad.png",
+        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/asian_young_main_group_hospital_professional-c0ba747cc87f47e9e774a98d96ab200e-9941ad.png",
         backAction = {},
     )
 }

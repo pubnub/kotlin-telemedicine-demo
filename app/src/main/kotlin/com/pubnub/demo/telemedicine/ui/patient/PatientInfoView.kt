@@ -122,7 +122,7 @@ private fun PatientInfoHeaderPreview() {
     PatientInfoHeader(
         name = "Saleha Ahmad",
         description = "47 yo · Pyrexia of unknown origin",
-        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png",
+        imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png",
         backAction = {},
     )
 }
@@ -238,7 +238,7 @@ private fun DrawerPreview() {
         PatientInfo(
             name = "Saleha Admad",
             description = "47 yo · Pyrexia of unknown origin",
-            imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png"
+            imageUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/cheerful_korean_business_lady_posing_office_with_crossed_arms-7e84991259ab033eb216f5c16ca89fcb-6ed401.png"
         )
     }
 }

@@ -318,7 +318,7 @@ private fun DayDividerToday() {
 private fun GroupChatMessageOnline() {
     GroupChatMessage(
         userId = "userId",
-        profileUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/young_handsome_african_man_doctor_gray-1e8bfcee7c1b1e94d0f3e4be29ceccca-ecdf18.png",
+        profileUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/young_handsome_african_man_doctor_gray-1e8bfcee7c1b1e94d0f3e4be29ceccca-ecdf18.png",
         title = "Dr Badri",
         message = messageFormatter(text = "Did you take x rays, too?"),
         imageUrl = null,
@@ -335,7 +335,7 @@ private fun GroupChatMessageOnline() {
 private fun GroupChatMessageOwn() {
     GroupChatMessage(
         userId = "userId",
-        profileUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_of_doctor-7af1f85a067d4dbae743e8527a20b93f-8fb27d.png",
+        profileUrl = "https://github.com/pubnub/kotlin-telemedicine-demo/raw/master/setup/users/portrait_of_doctor-7af1f85a067d4dbae743e8527a20b93f-8fb27d.png",
         title = "Dr Zaidi",
         message = messageFormatter(text = "Yes, here is it"),
         imageUrl = null,
