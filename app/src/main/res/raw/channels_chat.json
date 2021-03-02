@@ -1,0 +1,156 @@
+[
+   {
+      "__type__": "Cindy Abrams : Sam Smith Chat",
+      "name": "Malaria",
+      "id": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_68be48debf42308a99694c32f7b8cae0",
+         "doctors": [
+            "user_9fcd0800d1e5b73809b2ea7f32c39127"
+         ]
+      }
+   },
+   {
+      "__type__": "Saleha Ahmad : Akio Chén Chat",
+      "name": "Headache",
+      "id": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_8878cf6dbf833cd5d2855b2b31617f9f",
+         "doctors": [
+            "user_26ed21df2d310014d05cd932a03314bb"
+         ]
+      }
+   },
+   {
+      "__type__": "Aaron Jones : Alexander Wolfe Chat",
+      "name": "Joint Pain",
+      "id": "channel_84f52b80648ee89d2382655f703e32eb",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_60287274c5e04c824598a9fcb91d81f3",
+         "doctors": [
+            "user_075b9dde39c89c1f5750e3e6280af829"
+         ]
+      }
+   },
+   {
+      "__type__": "Hara Kagawa : Anna Berry Chat",
+      "name": "Malaria",
+      "id": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_744a710015e978ea04884ed94012afa7",
+         "doctors": [
+            "user_f4b7799b4bed65d6449d521018717b78"
+         ]
+      }
+   },
+   {
+      "__type__": "Maryah Westbrock : Badri Mangino Chat",
+      "name": "Joint Pain",
+      "id": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+         "doctors": [
+            "user_22d17a254947f6c7e47ede25c38776b6"
+         ]
+      }
+   },
+   {
+      "__type__": "Amelia Kendrick : Bob Caster Chat",
+      "name": "Stomach ache",
+      "id": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+         "doctors": [
+            "user_c082ef6149aa4fe5fb0ada4d7660cf40"
+         ]
+      }
+   },
+   {
+      "__type__": "Alice D. Bennett : Casey Blume Chat",
+      "name": "Stomach ache",
+      "id": "channel_424f9f717f781a525b9707ed3cade53b",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_8404ac76816016d2b13d86b5ad5f18c4",
+         "doctors": [
+            "user_ac058b143802b5b327a0c69e8d9960b2"
+         ]
+      }
+   },
+   {
+      "__type__": "Hasnah Simpson : Casey Blume Chat",
+      "name": "Headache",
+      "id": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_13f5f64b43c29f8315bfeb0eadf28841",
+         "doctors": [
+            "user_ac058b143802b5b327a0c69e8d9960b2"
+         ]
+      }
+   },
+   {
+      "__type__": "Beth Gillies : Sam Smith Chat",
+      "name": "Stomach ache",
+      "id": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_1ce3f408aba9fd0137988cbd37fd383e",
+         "doctors": [
+            "user_9fcd0800d1e5b73809b2ea7f32c39127"
+         ]
+      }
+   },
+   {
+      "__type__": "Tomas Brown : Mike Adams Chat",
+      "name": "Stomach ache",
+      "id": "channel_2b6024f56e8459094b9817677034c3ed",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_8a80b2f6c5df8a2666c254971067ad0e",
+         "doctors": [
+            "user_fb24c2647462bdbe09e506d30732fb8c"
+         ]
+      }
+   },
+   {
+      "__type__": "Ben Kowalski : Zaidi Garter Wagner Chat",
+      "name": "Joint Pain",
+      "id": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "custom": {
+         "type": "chat",
+         "createdAt": 15998209063274915,
+         "updated": 15998209063274915,
+         "patient": "user_20f04e6cacd68a28f228ec1e03640a78",
+         "doctors": [
+            "user_6be9c54cd17ba0cc9762c5c6312554c8"
+         ]
+      }
+   }
+]

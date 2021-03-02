@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Case Summary -->
+    <string name="case_description">%s • %d yo</string>
+    <string name="case_closed_on">Closed on %s</string>
+    <string name="case_user_age">%d yo</string>
+
+    <!-- Case Date -->
+    <string name="case_date_format_today">h:mma</string>
+    <string name="case_date_today">Today</string>
+    <string name="case_date_format_yesterday">Yesterday</string>
+    <string name="case_date_format_before_yesterday">M/d/YY</string>
+</resources>

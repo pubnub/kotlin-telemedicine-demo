@@ -1,0 +1,137 @@
+[
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Akio Chén",
+    "description": "Doctor",
+    "id": "channel_26ed21df2d310014d05cd932a03314bb",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_26ed21df2d310014d05cd932a03314bb"
+      ],
+      "groups": [
+        "group_26ed21df2d310014d05cd932a03314bb"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Alexander Wolfe",
+    "description": "Doctor",
+    "id": "channel_075b9dde39c89c1f5750e3e6280af829",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_075b9dde39c89c1f5750e3e6280af829"
+      ],
+      "groups": [
+        "group_075b9dde39c89c1f5750e3e6280af829"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Anna Berry",
+    "description": "Doctor",
+    "id": "channel_f4b7799b4bed65d6449d521018717b78",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_f4b7799b4bed65d6449d521018717b78"
+      ],
+      "groups": [
+        "group_f4b7799b4bed65d6449d521018717b78"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Badri Mangino",
+    "description": "Doctor",
+    "id": "channel_22d17a254947f6c7e47ede25c38776b6",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_22d17a254947f6c7e47ede25c38776b6"
+      ],
+      "groups": [
+        "group_22d17a254947f6c7e47ede25c38776b6"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Bob Caster",
+    "description": "Doctor",
+    "id": "channel_c082ef6149aa4fe5fb0ada4d7660cf40",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40"
+      ],
+      "groups": [
+        "group_c082ef6149aa4fe5fb0ada4d7660cf40"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Casey Blume",
+    "description": "Doctor",
+    "id": "channel_ac058b143802b5b327a0c69e8d9960b2",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_ac058b143802b5b327a0c69e8d9960b2"
+      ],
+      "groups": [
+        "group_ac058b143802b5b327a0c69e8d9960b2"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Mike Adams",
+    "description": "Doctor",
+    "id": "channel_fb24c2647462bdbe09e506d30732fb8c",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_fb24c2647462bdbe09e506d30732fb8c"
+      ],
+      "groups": [
+        "group_fb24c2647462bdbe09e506d30732fb8c"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Sam Smith",
+    "description": "Doctor",
+    "id": "channel_9fcd0800d1e5b73809b2ea7f32c39127",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_9fcd0800d1e5b73809b2ea7f32c39127"
+      ],
+      "groups": [
+        "group_9fcd0800d1e5b73809b2ea7f32c39127"
+      ]
+    }
+  },
+  {
+    "__type__": "Doctor groups holder",
+    "name": "Zaidi Garter Wagner",
+    "description": "Doctor",
+    "id": "channel_6be9c54cd17ba0cc9762c5c6312554c8",
+    "custom": {
+      "type": "doctor",
+      "doctors": [
+        "user_6be9c54cd17ba0cc9762c5c6312554c8"
+      ],
+      "groups": [
+        "group_6be9c54cd17ba0cc9762c5c6312554c8"
+      ]
+    }
+  }
+]

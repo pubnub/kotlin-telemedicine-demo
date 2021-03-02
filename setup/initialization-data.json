@@ -1,0 +1,1463 @@
+{
+  "channelGroups": [
+    {
+      "__type__": "Doctor Akio Chén",
+      "group": "group_26ed21df2d310014d05cd932a03314bb",
+      "channels": [
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_915f276f188c40a5a32607ef185464d5",
+        "channel_2c028d2d78dd9852be05e285dfdd84d2"
+      ]
+    },
+    {
+      "__type__": "Doctor Alexander Wolfe",
+      "group": "group_075b9dde39c89c1f5750e3e6280af829",
+      "channels": [
+        "channel_1b7c3abfa84c036346a6da783a3e5220",
+        "channel_915f276f188c40a5a32607ef185464d5",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_84f52b80648ee89d2382655f703e32eb"
+      ]
+    },
+    {
+      "__type__": "Doctor Anna Berry",
+      "group": "group_f4b7799b4bed65d6449d521018717b78",
+      "channels": [
+        "channel_1b7c3abfa84c036346a6da783a3e5220",
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_ef0fb98bd61a6cf2f2576b094123ba9c"
+      ]
+    },
+    {
+      "__type__": "Doctor Badri Mangino",
+      "group": "group_22d17a254947f6c7e47ede25c38776b6",
+      "channels": [
+        "channel_1b7c3abfa84c036346a6da783a3e5220",
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_25f00156f3b053f4f86bca59ad1e2156"
+      ]
+    },
+    {
+      "__type__": "Doctor Bob Caster",
+      "group": "group_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channels": [
+        "channel_1b7c3abfa84c036346a6da783a3e5220",
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_f2e1c6ec4113d5320c51c3878642b81b"
+      ]
+    },
+    {
+      "__type__": "Doctor Casey Blume",
+      "group": "group_ac058b143802b5b327a0c69e8d9960b2",
+      "channels": [
+        "channel_1b7c3abfa84c036346a6da783a3e5220",
+        "channel_915f276f188c40a5a32607ef185464d5",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_424f9f717f781a525b9707ed3cade53b"
+      ]
+    },
+    {
+      "__type__": "Doctor Mike Adams",
+      "group": "group_fb24c2647462bdbe09e506d30732fb8c",
+      "channels": [
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_915f276f188c40a5a32607ef185464d5",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_2b6024f56e8459094b9817677034c3ed"
+      ]
+    },
+    {
+      "__type__": "Doctor Sam Smith",
+      "group": "group_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channels": [
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_6c1f551c86e7cab1f12515780136e13c"
+      ]
+    },
+    {
+      "__type__": "Doctor Zaidi Garter Wagner",
+      "group": "group_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channels": [
+        "channel_1b7c3abfa84c036346a6da783a3e5220",
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_c108b4089223869324488db6f48cffe4",
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_bd8faedd0f86b2e4efef2ecb26482800",
+        "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+        "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1"
+      ]
+    },
+    {
+      "__type__": "Patient Aaron Jones",
+      "group": "group_60287274c5e04c824598a9fcb91d81f3",
+      "channels": [
+        "channel_84f52b80648ee89d2382655f703e32eb"
+      ]
+    },
+    {
+      "__type__": "Patient Amelia Kendrick",
+      "group": "group_ad0b8ce6e97f4133c6180ea51a43df56",
+      "channels": [
+        "channel_f2e1c6ec4113d5320c51c3878642b81b"
+      ]
+    },
+    {
+      "__type__": "Patient Alice D. Bennett",
+      "group": "group_8404ac76816016d2b13d86b5ad5f18c4",
+      "channels": [
+        "channel_424f9f717f781a525b9707ed3cade53b"
+      ]
+    },
+    {
+      "__type__": "Patient Beth Gillies",
+      "group": "group_2539577323958f495bdbd83af9d7e9c6",
+      "channels": [
+        "channel_c108b4089223869324488db6f48cffe4"
+      ]
+    },
+    {
+      "__type__": "Patient Ben Kowalski",
+      "group": "group_20f04e6cacd68a28f228ec1e03640a78",
+      "channels": [
+        "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+        "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1"
+      ]
+    },
+    {
+      "__type__": "Patient Cindy Abrams",
+      "group": "group_68be48debf42308a99694c32f7b8cae0",
+      "channels": [
+        "channel_6c1f551c86e7cab1f12515780136e13c"
+      ]
+    },
+    {
+      "__type__": "Patient Hara Kagawa",
+      "group": "group_744a710015e978ea04884ed94012afa7",
+      "channels": [
+        "channel_d067079d1ceb4aa18da7d91a740bebea",
+        "channel_ef0fb98bd61a6cf2f2576b094123ba9c"
+      ]
+    },
+    {
+      "__type__": "Patient Hasnah Simpson",
+      "group": "group_13f5f64b43c29f8315bfeb0eadf28841",
+      "channels": [
+        "channel_bd8faedd0f86b2e4efef2ecb26482800"
+      ]
+    },
+    {
+      "__type__": "Patient Maryah Westbrock",
+      "group": "group_e71b68ea5d51249bf7d8fd47d96e2707",
+      "channels": [
+        "channel_915f276f188c40a5a32607ef185464d5",
+        "channel_25f00156f3b053f4f86bca59ad1e2156"
+      ]
+    },
+    {
+      "__type__": "Patient Saleha Ahmad",
+      "group": "group_8878cf6dbf833cd5d2855b2b31617f9f",
+      "channels": [
+        "channel_2c028d2d78dd9852be05e285dfdd84d2"
+      ]
+    },
+    {
+      "__type__": "Patient Tomas Brown",
+      "group": "group_8a80b2f6c5df8a2666c254971067ad0e",
+      "channels": [
+        "channel_2b6024f56e8459094b9817677034c3ed"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "0ae12912476772c0737e3c58eac3b264",
+      "userId": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "0ae12912476772c0737e3c58eac3b264",
+        "content": "I’ve stomachache and loose motions since last night. I also vomited few times in the night."
+      }
+    },
+    {
+      "id": "9a4b12f6363d1281ca1312af97f91ac9",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "9a4b12f6363d1281ca1312af97f91ac9",
+        "content": "What did you eat yesterday?"
+      }
+    },
+    {
+      "id": "3aa439b4b7bc3a76316d4fbea9ab7de0",
+      "userId": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "3aa439b4b7bc3a76316d4fbea9ab7de0",
+        "content": "I ate some snacks on the roadside eatery. It’s likely a result of that."
+      }
+    },
+    {
+      "id": "d058b2199c56bcf302d9a724e1bb5616",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d058b2199c56bcf302d9a724e1bb5616",
+        "content": "Likely you ate contaminated food. Because of diarrhea, you’ve lost plenty of body fluids. You need to be hydrated. Drink water regularly. Mix some Glucon-D powder or Electral in it. Fruit juice is fine too. Avoid caffeine, dairy products, and solid foods at least till evening. And get plenty of rest."
+      }
+    },
+    {
+      "id": "ba7f67c8522e61ba4befadb50055ccd0",
+      "userId": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "ba7f67c8522e61ba4befadb50055ccd0",
+        "content": "Any medicines?"
+      }
+    },
+    {
+      "id": "80b08ae9e65f1e4c38f62bddd2fac5dc",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "80b08ae9e65f1e4c38f62bddd2fac5dc",
+        "content": "Yes, I’m prescribing few to control diarrhea."
+      }
+    },
+    {
+      "id": "e76d45d5341181cc8417c71053c6e7fd",
+      "userId": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+      "channelId": "channel_f2e1c6ec4113d5320c51c3878642b81b",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "e76d45d5341181cc8417c71053c6e7fd",
+        "content": "Thank you"
+      }
+    },
+    {
+      "id": "cb873cc1f122c6c971746f368b21d885",
+      "userId": "user_8404ac76816016d2b13d86b5ad5f18c4",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "cb873cc1f122c6c971746f368b21d885",
+        "content": "I’ve stomachache and loose motions since last night. I also vomited few times in the night."
+      }
+    },
+    {
+      "id": "fdbb3725dfb1f30702706b852f62a2eb",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "fdbb3725dfb1f30702706b852f62a2eb",
+        "content": "What did you eat yesterday?"
+      }
+    },
+    {
+      "id": "d933c1f1a9024288009783598991f6be",
+      "userId": "user_8404ac76816016d2b13d86b5ad5f18c4",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d933c1f1a9024288009783598991f6be",
+        "content": "I ate some snacks on the roadside eatery. It’s likely a result of that."
+      }
+    },
+    {
+      "id": "d0aa787ded302597b02359c1c815c1e3",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d0aa787ded302597b02359c1c815c1e3",
+        "content": "Likely you ate contaminated food. Because of diarrhea, you’ve lost plenty of body fluids. You need to be hydrated. Drink water regularly. Mix some Glucon-D powder or Electral in it. Fruit juice is fine too. Avoid caffeine, dairy products, and solid foods at least till evening. And get plenty of rest."
+      }
+    },
+    {
+      "id": "76eb23cc7341cd843ecdcb8fd51c124e",
+      "userId": "user_8404ac76816016d2b13d86b5ad5f18c4",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "76eb23cc7341cd843ecdcb8fd51c124e",
+        "content": "Any medicines?"
+      }
+    },
+    {
+      "id": "d4235f593698da979949eeb367c02580",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d4235f593698da979949eeb367c02580",
+        "content": "Yes, I’m prescribing few to control diarrhea."
+      }
+    },
+    {
+      "id": "9e1b1833fe56f603e07dfc9d6136ed07",
+      "userId": "user_8404ac76816016d2b13d86b5ad5f18c4",
+      "channelId": "channel_424f9f717f781a525b9707ed3cade53b",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "9e1b1833fe56f603e07dfc9d6136ed07",
+        "content": "Thank you"
+      }
+    },
+    {
+      "id": "52aafe7ed8966711f3a866311569362a",
+      "userId": "user_1ce3f408aba9fd0137988cbd37fd383e",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "52aafe7ed8966711f3a866311569362a",
+        "content": "I’ve stomachache and loose motions since last night. I also vomited few times in the night."
+      }
+    },
+    {
+      "id": "57b06be39fb19534cec09eb2f40c0efa",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "57b06be39fb19534cec09eb2f40c0efa",
+        "content": "What did you eat yesterday?"
+      }
+    },
+    {
+      "id": "a79477e4b3b3317ab6359f68cab2c70d",
+      "userId": "user_1ce3f408aba9fd0137988cbd37fd383e",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "a79477e4b3b3317ab6359f68cab2c70d",
+        "content": "I ate some snacks on the roadside eatery. It’s likely a result of that."
+      }
+    },
+    {
+      "id": "730596d8fa3d6fa9dcbb3ff2e1c3a40f",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "730596d8fa3d6fa9dcbb3ff2e1c3a40f",
+        "content": "Likely you ate contaminated food. Because of diarrhea, you’ve lost plenty of body fluids. You need to be hydrated. Drink water regularly. Mix some Glucon-D powder or Electral in it. Fruit juice is fine too. Avoid caffeine, dairy products, and solid foods at least till evening. And get plenty of rest."
+      }
+    },
+    {
+      "id": "64f64bb63310676ae4aff0621b682cd5",
+      "userId": "user_1ce3f408aba9fd0137988cbd37fd383e",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "64f64bb63310676ae4aff0621b682cd5",
+        "content": "Any medicines?"
+      }
+    },
+    {
+      "id": "7fe04cb5139c1983ed8055cc6402b9a1",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "7fe04cb5139c1983ed8055cc6402b9a1",
+        "content": "Yes, I’m prescribing few to control diarrhea."
+      }
+    },
+    {
+      "id": "f313f9c28c3ccb1233ebc62bbb77134a",
+      "userId": "user_1ce3f408aba9fd0137988cbd37fd383e",
+      "channelId": "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "f313f9c28c3ccb1233ebc62bbb77134a",
+        "content": "Thank you"
+      }
+    },
+    {
+      "id": "5564ea20a462c2838f175b3127d5e6ee",
+      "userId": "user_68be48debf42308a99694c32f7b8cae0",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "5564ea20a462c2838f175b3127d5e6ee",
+        "content": "Good evening doctor"
+      }
+    },
+    {
+      "id": "977f9ecec8bf2f2c437ba45391780509",
+      "userId": "user_68be48debf42308a99694c32f7b8cae0",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993584420000000,
+      "isSent": true,
+      "custom": {
+        "id": "977f9ecec8bf2f2c437ba45391780509",
+        "content": "I’m running a temperature and have a sore throat"
+      }
+    },
+    {
+      "id": "266d1135be7afaf7422a2ccb7be4fe2a",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993585320000000,
+      "isSent": true,
+      "custom": {
+        "id": "266d1135be7afaf7422a2ccb7be4fe2a",
+        "content": "It looks bit scruffy. Not good."
+      }
+    },
+    {
+      "id": "a23fc1236b8888bf984855cc0433aa6e",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993585420000000,
+      "isSent": true,
+      "custom": {
+        "id": "a23fc1236b8888bf984855cc0433aa6e",
+        "content": "Do you get sweating and shivering?"
+      }
+    },
+    {
+      "id": "1eb064891585fb5388681aff2253807d",
+      "userId": "user_68be48debf42308a99694c32f7b8cae0",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993587320000000,
+      "isSent": true,
+      "custom": {
+        "id": "1eb064891585fb5388681aff2253807d",
+        "content": "Not sweating, but I feel somewhat cold when I sit under a fan"
+      }
+    },
+    {
+      "id": "7017405ae44a77b4938757fbe6355ded",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "7017405ae44a77b4938757fbe6355ded",
+        "content": "OK. You’ve few symptoms of malaria. I would suggest you undergo blood test. Nothing to worry about. In most cases, the test come out to be negative. It’s just precautionary, as there have been spurt in malaria cases in the last month or so."
+      }
+    },
+    {
+      "id": "a86858eed5874fe46e2aaef0de90e890",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993594420000000,
+      "isSent": true,
+      "custom": {
+        "id": "a86858eed5874fe46e2aaef0de90e890",
+        "content": "I’m prescribing three medicines and a syrup."
+      }
+    },
+    {
+      "id": "51073bef42b20b5441af119207968086",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993594620000000,
+      "isSent": true,
+      "custom": {
+        "id": "51073bef42b20b5441af119207968086",
+        "content": "The number of dots in front of each tells you how many times in the day you’ve to take them. For example, the two dots here mean you’ve to take the medicine twice in the day, once in the morning and once after dinner."
+      }
+    },
+    {
+      "id": "7e4efe009b96c8e79474e5f19c1e2adc",
+      "userId": "user_68be48debf42308a99694c32f7b8cae0",
+      "channelId": "channel_6c1f551c86e7cab1f12515780136e13c",
+      "timestamp": 15993598320000000,
+      "isSent": true,
+      "custom": {
+        "id": "7e4efe009b96c8e79474e5f19c1e2adc",
+        "content": "Thank you"
+      }
+    },
+    {
+      "id": "e4e95f913f2636c007abc96e5270a706",
+      "userId": "user_744a710015e978ea04884ed94012afa7",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "e4e95f913f2636c007abc96e5270a706",
+        "content": "Good evening doctor"
+      }
+    },
+    {
+      "id": "2bcdd62ba427b85fde0095692e750cda",
+      "userId": "user_744a710015e978ea04884ed94012afa7",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993584420000000,
+      "isSent": true,
+      "custom": {
+        "id": "2bcdd62ba427b85fde0095692e750cda",
+        "content": "I’m running a temperature and have a sore throat"
+      }
+    },
+    {
+      "id": "f47303a5dd43ffd4e29a5f948a783a33",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993585320000000,
+      "isSent": true,
+      "custom": {
+        "id": "f47303a5dd43ffd4e29a5f948a783a33",
+        "content": "It looks bit scruffy. Not good."
+      }
+    },
+    {
+      "id": "02a99723bc8a3b19c8ebdfa3d6584c20",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993585420000000,
+      "isSent": true,
+      "custom": {
+        "id": "02a99723bc8a3b19c8ebdfa3d6584c20",
+        "content": "Do you get sweating and shivering?"
+      }
+    },
+    {
+      "id": "0a4c18e9792028d1018427af8aeaa88a",
+      "userId": "user_744a710015e978ea04884ed94012afa7",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993587320000000,
+      "isSent": true,
+      "custom": {
+        "id": "0a4c18e9792028d1018427af8aeaa88a",
+        "content": "Not sweating, but I feel somewhat cold when I sit under a fan"
+      }
+    },
+    {
+      "id": "0dee5613f0f2b60851bd13c20a0196ce",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "0dee5613f0f2b60851bd13c20a0196ce",
+        "content": "OK. You’ve few symptoms of malaria. I would suggest you undergo blood test. Nothing to worry about. In most cases, the test come out to be negative. It’s just precautionary, as there have been spurt in malaria cases in the last month or so."
+      }
+    },
+    {
+      "id": "f47af7ee17a72e8fd0b2787313c7bf34",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993594420000000,
+      "isSent": true,
+      "custom": {
+        "id": "f47af7ee17a72e8fd0b2787313c7bf34",
+        "content": "I’m prescribing three medicines and a syrup."
+      }
+    },
+    {
+      "id": "25e4f83c1702f6a847726bc9d5e018ac",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993594620000000,
+      "isSent": true,
+      "custom": {
+        "id": "25e4f83c1702f6a847726bc9d5e018ac",
+        "content": "The number of dots in front of each tells you how many times in the day you’ve to take them. For example, the two dots here mean you’ve to take the medicine twice in the day, once in the morning and once after dinner."
+      }
+    },
+    {
+      "id": "1dbad6403bb3394a2393abad7d1e20f1",
+      "userId": "user_744a710015e978ea04884ed94012afa7",
+      "channelId": "channel_ef0fb98bd61a6cf2f2576b094123ba9c",
+      "timestamp": 15993598320000000,
+      "isSent": true,
+      "custom": {
+        "id": "1dbad6403bb3394a2393abad7d1e20f1",
+        "content": "Thank you"
+      }
+    },
+    {
+      "id": "701a430e4136fe0800fcae88df495387",
+      "userId": "user_13f5f64b43c29f8315bfeb0eadf28841",
+      "channelId": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "701a430e4136fe0800fcae88df495387",
+        "content": "Doctor, I’ve headache since yesterday evening"
+      }
+    },
+    {
+      "id": "85c01885210623d3b9215e6e7a4fd98e",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "85c01885210623d3b9215e6e7a4fd98e",
+        "content": "Have you taken any medicine so far?"
+      }
+    },
+    {
+      "id": "7a135df62d6f83d83f63cba4f2a02224",
+      "userId": "user_13f5f64b43c29f8315bfeb0eadf28841",
+      "channelId": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "7a135df62d6f83d83f63cba4f2a02224",
+        "content": "Saridon, but the headache hasn’t disappeared"
+      }
+    },
+    {
+      "id": "d0e1ab84a114148bcc937462d9d542dc",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "timestamp": 15993597320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d0e1ab84a114148bcc937462d9d542dc",
+        "content": "You’ve a running nose. Looks like your headache is a result of sinus infection, and not the regular one that results from anxiety and fatigue."
+      }
+    },
+    {
+      "id": "e301b4377c950ddfdf6d9e03f465f020",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "timestamp": 15993597420000000,
+      "isSent": true,
+      "custom": {
+        "id": "e301b4377c950ddfdf6d9e03f465f020",
+        "content": "I’ll prescribe an antibiotic to clear the infection and a pain reliever to relieve the pain."
+      }
+    },
+    {
+      "id": "15818b85c755e5181b7ba019cce822ab",
+      "userId": "user_13f5f64b43c29f8315bfeb0eadf28841",
+      "channelId": "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "15818b85c755e5181b7ba019cce822ab",
+        "content": "Thank you, doctor"
+      }
+    },
+
+    {
+      "id": "d4ecf38cfd6e73ec0d1a13f79bea10ed",
+      "userId": "user_8878cf6dbf833cd5d2855b2b31617f9f",
+      "channelId": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d4ecf38cfd6e73ec0d1a13f79bea10ed",
+        "content": "Doctor, I’ve headache since yesterday evening"
+      }
+    },
+    {
+      "id": "b7e769c50d3d00fdd41e0a57a9f77a4d",
+      "userId": "user_26ed21df2d310014d05cd932a03314bb",
+      "channelId": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "b7e769c50d3d00fdd41e0a57a9f77a4d",
+        "content": "Have you taken any medicine so far?"
+      }
+    },
+    {
+      "id": "bf7df29e6a3b84fd57059e3666d1a5d4",
+      "userId": "user_8878cf6dbf833cd5d2855b2b31617f9f",
+      "channelId": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "bf7df29e6a3b84fd57059e3666d1a5d4",
+        "content": "Saridon, but the headache hasn’t disappeared"
+      }
+    },
+    {
+      "id": "ff7e40649fbb20296dbf63fc9670095a",
+      "userId": "user_26ed21df2d310014d05cd932a03314bb",
+      "channelId": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "timestamp": 15993597320000000,
+      "isSent": true,
+      "custom": {
+        "id": "ff7e40649fbb20296dbf63fc9670095a",
+        "content": "You’ve a running nose. Looks like your headache is a result of sinus infection, and not the regular one that results from anxiety and fatigue."
+      }
+    },
+    {
+      "id": "c79b00ed89607e1034203d27f80cd3ca",
+      "userId": "user_26ed21df2d310014d05cd932a03314bb",
+      "channelId": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "timestamp": 15993597420000000,
+      "isSent": true,
+      "custom": {
+        "id": "c79b00ed89607e1034203d27f80cd3ca",
+        "content": "I’ll prescribe an antibiotic to clear the infection and a pain reliever to relieve the pain."
+      }
+    },
+    {
+      "id": "251afa842c4e5afe08c67b920079cde6",
+      "userId": "user_8878cf6dbf833cd5d2855b2b31617f9f",
+      "channelId": "channel_2c028d2d78dd9852be05e285dfdd84d2",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "251afa842c4e5afe08c67b920079cde6",
+        "content": "Thank you, doctor"
+      }
+    },
+    {
+      "id": "6a27041e337b1f640571effc8cf37a0b",
+      "userId": "user_8a80b2f6c5df8a2666c254971067ad0e",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "6a27041e337b1f640571effc8cf37a0b",
+        "content": "I’ve stomachache and loose motions since last night. I also vomited few times in the night."
+      }
+    },
+    {
+      "id": "cfc91f03cfc42deacbe76ff38c0269ae",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "cfc91f03cfc42deacbe76ff38c0269ae",
+        "content": "What did you eat yesterday?"
+      }
+    },
+    {
+      "id": "53f166a7ccf6e6794e54d0b3a4b8b7cd",
+      "userId": "user_8a80b2f6c5df8a2666c254971067ad0e",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "53f166a7ccf6e6794e54d0b3a4b8b7cd",
+        "content": "I ate some snacks on the roadside eatery. It’s likely a result of that."
+      }
+    },
+    {
+      "id": "1f7d036740bcf0104a7c67859e3b6a1e",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "1f7d036740bcf0104a7c67859e3b6a1e",
+        "content": "Likely you ate contaminated food. Because of diarrhea, you’ve lost plenty of body fluids. You need to be hydrated. Drink water regularly. Mix some Glucon-D powder or Electral in it. Fruit juice is fine too. Avoid caffeine, dairy products, and solid foods at least till evening. And get plenty of rest."
+      }
+    },
+    {
+      "id": "bf001dd47b70373205df7f39253731a9",
+      "userId": "user_8a80b2f6c5df8a2666c254971067ad0e",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "bf001dd47b70373205df7f39253731a9",
+        "content": "Any medicines?"
+      }
+    },
+    {
+      "id": "815c98f61a4928fbb8b2e6cb76eec82c",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "815c98f61a4928fbb8b2e6cb76eec82c",
+        "content": "Yes, I’m prescribing few to control diarrhea."
+      }
+    },
+    {
+      "id": "9a3d76de08b974444b5f5ce7595378d9",
+      "userId": "user_8a80b2f6c5df8a2666c254971067ad0e",
+      "channelId": "channel_2b6024f56e8459094b9817677034c3ed",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "9a3d76de08b974444b5f5ce7595378d9",
+        "content": "Thank you"
+      }
+    },
+    {
+      "id": "3fcdc31abebf3dce4d87b0bf19db143a",
+      "userId": "user_60287274c5e04c824598a9fcb91d81f3",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "3fcdc31abebf3dce4d87b0bf19db143a",
+        "content": "Good morning. I've been having some pain in my joints, especially the knees."
+      }
+    },
+    {
+      "id": "3d81d55e39208202ffdbc8afef74d578",
+      "userId": "user_075b9dde39c89c1f5750e3e6280af829",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "3d81d55e39208202ffdbc8afef74d578",
+        "content": "How long have you been having the pain?"
+      }
+    },
+    {
+      "id": "8e4c326a6bd4335f3306f91d2c38de5d",
+      "userId": "user_60287274c5e04c824598a9fcb91d81f3",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "8e4c326a6bd4335f3306f91d2c38de5d",
+        "content": "I'd say it started three or four months ago. It's been getting worse recently."
+      }
+    },
+    {
+      "id": "c3caf6f5f0623ca5a3ff8c0a22b8ab39",
+      "userId": "user_075b9dde39c89c1f5750e3e6280af829",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "c3caf6f5f0623ca5a3ff8c0a22b8ab39",
+        "content": "Are you having any other problems like weakness, fatigue or headaches?"
+      }
+    },
+    {
+      "id": "505a0913f9ebdf7cb38f47a97de63798",
+      "userId": "user_60287274c5e04c824598a9fcb91d81f3",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "505a0913f9ebdf7cb38f47a97de63798",
+        "content": "Well I've certainly felt under the weather."
+      }
+    },
+    {
+      "id": "eab3cb8379509d7f01731a834778508b",
+      "userId": "user_075b9dde39c89c1f5750e3e6280af829",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "eab3cb8379509d7f01731a834778508b",
+        "content": "Right. How much physical activity do you get? Do you play any sports?"
+      }
+    },
+    {
+      "id": "ad6b586c19293f08bdec212089e98368",
+      "userId": "user_60287274c5e04c824598a9fcb91d81f3",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "ad6b586c19293f08bdec212089e98368",
+        "content": "Some. I like to play tennis about once a week. I take my dog on a walk every morning."
+      }
+    },
+    {
+      "id": "74547f50a14d9692c573c764f8ae485c",
+      "userId": "user_075b9dde39c89c1f5750e3e6280af829",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993894320000000,
+      "isSent": true,
+      "custom": {
+        "id": "74547f50a14d9692c573c764f8ae485c",
+        "content": "It seems you have some inflammation in your knees. However, there's nothing broken."
+      }
+    },
+    {
+      "id": "174b4daa11855d4f8ee045cbd59422b1",
+      "userId": "user_075b9dde39c89c1f5750e3e6280af829",
+      "channelId": "channel_84f52b80648ee89d2382655f703e32eb",
+      "timestamp": 15993896320000000,
+      "isSent": true,
+      "custom": {
+        "id": "174b4daa11855d4f8ee045cbd59422b1",
+        "content": "Just take some ibuprofen or aspirin and the swelling should go down. You'll feel better after that."
+      }
+    },
+    {
+      "id": "e3774bc42023d22b1179e4effc16b353",
+      "userId": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "e3774bc42023d22b1179e4effc16b353",
+        "content": "Good morning. I've been having some pain in my joints, especially the knees."
+      }
+    },
+    {
+      "id": "c0c1d6835f348b9a560d30e68cbf9cb7",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "c0c1d6835f348b9a560d30e68cbf9cb7",
+        "content": "How long have you been having the pain?"
+      }
+    },
+    {
+      "id": "7fac424f418e9e246f513871bb18234e",
+      "userId": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "7fac424f418e9e246f513871bb18234e",
+        "content": "I'd say it started three or four months ago. It's been getting worse recently."
+      }
+    },
+    {
+      "id": "411ca6f49d914a13d4fecb42e1d2be9f",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "411ca6f49d914a13d4fecb42e1d2be9f",
+        "content": "Are you having any other problems like weakness, fatigue or headaches?"
+      }
+    },
+    {
+      "id": "52305ffa468960e030d5f8917f6b0f07",
+      "userId": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "52305ffa468960e030d5f8917f6b0f07",
+        "content": "Well I've certainly felt under the weather."
+      }
+    },
+    {
+      "id": "2d05e4687c94f76be8d2f7e868513b8e",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "2d05e4687c94f76be8d2f7e868513b8e",
+        "content": "Right. How much physical activity do you get? Do you play any sports?"
+      }
+    },
+    {
+      "id": "e636bc728ade1ab5363b69bfe58967d9",
+      "userId": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "e636bc728ade1ab5363b69bfe58967d9",
+        "content": "Some. I like to play tennis about once a week. I take my dog on a walk every morning."
+      }
+    },
+    {
+      "id": "433c68b03bd944e921fdb98d6e1dce34",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993894320000000,
+      "isSent": true,
+      "custom": {
+        "id": "433c68b03bd944e921fdb98d6e1dce34",
+        "content": "It seems you have some inflammation in your knees. However, there's nothing broken."
+      }
+    },
+    {
+      "id": "52b47373093f2b8e6822dc6ab11ea007",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_25f00156f3b053f4f86bca59ad1e2156",
+      "timestamp": 15993896320000000,
+      "isSent": true,
+      "custom": {
+        "id": "52b47373093f2b8e6822dc6ab11ea007",
+        "content": "Just take some ibuprofen or aspirin and the swelling should go down. You'll feel better after that."
+      }
+    },
+    {
+      "id": "d0651c9e002c8acd57e3240395b49646",
+      "userId": "user_20f04e6cacd68a28f228ec1e03640a78",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "d0651c9e002c8acd57e3240395b49646",
+        "content": "Good morning. I've been having some pain in my joints, especially the knees."
+      }
+    },
+    {
+      "id": "73590564d309e7c99b9c4ce7e7dcca6c",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993594320000000,
+      "isSent": true,
+      "custom": {
+        "id": "73590564d309e7c99b9c4ce7e7dcca6c",
+        "content": "How long have you been having the pain?"
+      }
+    },
+    {
+      "id": "543b7799cbfabce04254b3caf6421aa8",
+      "userId": "user_20f04e6cacd68a28f228ec1e03640a78",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993596320000000,
+      "isSent": true,
+      "custom": {
+        "id": "543b7799cbfabce04254b3caf6421aa8",
+        "content": "I'd say it started three or four months ago. It's been getting worse recently."
+      }
+    },
+    {
+      "id": "5be5a1a6ecf9fe01f101a994c3045a5e",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993599320000000,
+      "isSent": true,
+      "custom": {
+        "id": "5be5a1a6ecf9fe01f101a994c3045a5e",
+        "content": "Are you having any other problems like weakness, fatigue or headaches?"
+      }
+    },
+    {
+      "id": "1b4ac9fd44ee0d4905e2988fc6b36200",
+      "userId": "user_20f04e6cacd68a28f228ec1e03640a78",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993684320000000,
+      "isSent": true,
+      "custom": {
+        "id": "1b4ac9fd44ee0d4905e2988fc6b36200",
+        "content": "Well I've certainly felt under the weather."
+      }
+    },
+    {
+      "id": "c32eb8b4ec36be47ab373e93350b6957",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993784320000000,
+      "isSent": true,
+      "custom": {
+        "id": "c32eb8b4ec36be47ab373e93350b6957",
+        "content": "Right. How much physical activity do you get? Do you play any sports?"
+      }
+    },
+    {
+      "id": "ce942bd28c44772d24c700b88318b778",
+      "userId": "user_20f04e6cacd68a28f228ec1e03640a78",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993884320000000,
+      "isSent": true,
+      "custom": {
+        "id": "ce942bd28c44772d24c700b88318b778",
+        "content": "Some. I like to play tennis about once a week. I take my dog on a walk every morning."
+      }
+    },
+    {
+      "id": "f8f6ccba703e39597411e3621a440e6a",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993894320000000,
+      "isSent": true,
+      "custom": {
+        "id": "f8f6ccba703e39597411e3621a440e6a",
+        "content": "It seems you have some inflammation in your knees. However, there's nothing broken."
+      }
+    },
+    {
+      "id": "9c8692a24b75731a8630323d7551e06b",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1",
+      "timestamp": 15993896320000000,
+      "isSent": true,
+      "custom": {
+        "id": "9c8692a24b75731a8630323d7551e06b",
+        "content": "Just take some ibuprofen or aspirin and the swelling should go down. You'll feel better after that."
+      }
+    },
+    {
+      "id": "c0f83338-f0d5-11ea-adc1-0242ac120002",
+      "userId": "user_a652eb6cc34b44c4a39b28fcc24d062b",
+      "channelId": "channel_ac4e67b98b34b44c4a39466e93e",
+      "timestamp": 15993584320000000,
+      "isSent": true,
+      "custom": {
+        "id": "c0f83338-f0d5-11ea-adc1-0242ac120002",
+        "content": "Hello!"
+      }
+    },
+    {
+      "id": "7654696e-c491-4b24-a73f-413cfd2e9b59",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "7654696e-c491-4b24-a73f-413cfd2e9b59",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "4641facc-7406-48db-9c8c-c5552916b879",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "4641facc-7406-48db-9c8c-c5552916b879",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_1.jpg"
+      }
+    },
+    {
+      "id": "068543cd-dce9-4e49-be6b-be9fc2ad28ba",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "068543cd-dce9-4e49-be6b-be9fc2ad28ba",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "fa138cd5-75d7-44a7-9de3-6b8874e3eadb",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "fa138cd5-75d7-44a7-9de3-6b8874e3eadb",
+        "content": "Well, we need to take action here"
+      }
+    },
+    {
+      "id": "502930082aa2bc2ef79de83c30d42a6e",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "502930082aa2bc2ef79de83c30d42a6e",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "800fafc00fd285c0c712c1843063bffe",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "800fafc00fd285c0c712c1843063bffe",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_5.jpg"
+      }
+    },
+    {
+      "id": "e2326e3091ac463ab652133448927b2a",
+      "userId": "user_22d17a254947f6c7e47ede25c38776b6",
+      "channelId": "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "e2326e3091ac463ab652133448927b2a",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "957f7330cd8beb98db094c5d7e239fa3",
+      "userId": "user_9fcd0800d1e5b73809b2ea7f32c39127",
+      "channelId": "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "957f7330cd8beb98db094c5d7e239fa3",
+        "content": "Well, we need to take action here"
+      }
+    },
+    {
+      "id": "b8d388a3605cbed9d9b59dab4ab59e23",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_915f276f188c40a5a32607ef185464d5",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "b8d388a3605cbed9d9b59dab4ab59e23",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "75acb94cc3347b824114cc37c3d674ff",
+      "userId": "user_26ed21df2d310014d05cd932a03314bb",
+      "channelId": "channel_915f276f188c40a5a32607ef185464d5",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "75acb94cc3347b824114cc37c3d674ff",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_4.jpg"
+      }
+    },
+    {
+      "id": "a2d3960dfe969c2004f72bc706bd41aa",
+      "userId": "user_26ed21df2d310014d05cd932a03314bb",
+      "channelId": "channel_915f276f188c40a5a32607ef185464d5",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "a2d3960dfe969c2004f72bc706bd41aa",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "5f329502396dea8583abfe808b00f857",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_915f276f188c40a5a32607ef185464d5",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "5f329502396dea8583abfe808b00f857",
+        "content": "Well, we need to take action here"
+      }
+    },
+    {
+      "id": "9a6e90303ef77f6707d704bf671ed93e",
+      "userId": "user_075b9dde39c89c1f5750e3e6280af829",
+      "channelId": "channel_c108b4089223869324488db6f48cffe4",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "9a6e90303ef77f6707d704bf671ed93e",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "aab5cb40fcdc800673b1b2db521825a6",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_c108b4089223869324488db6f48cffe4",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "aab5cb40fcdc800673b1b2db521825a6",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_3.jpg"
+      }
+    },
+    {
+      "id": "b4cd35be74091abd200dfdf78bed02f3",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_c108b4089223869324488db6f48cffe4",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "b4cd35be74091abd200dfdf78bed02f3",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "180d75667deaf128e2707e2d658686a8",
+      "userId": "user_26ed21df2d310014d05cd932a03314bb",
+      "channelId": "channel_c108b4089223869324488db6f48cffe4",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "180d75667deaf128e2707e2d658686a8",
+        "content": "Well, we need to take action here"
+      }
+    },
+    {
+      "id": "9d1a9145b54af19b570cccd9a649357e",
+      "userId": "user_ac058b143802b5b327a0c69e8d9960b2",
+      "channelId": "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "9d1a9145b54af19b570cccd9a649357e",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "9d5b1713503ff30cdc54faceb4ea7782",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "9d5b1713503ff30cdc54faceb4ea7782",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_0.jpg"
+      }
+    },
+    {
+      "id": "7cfca6824c15ef943c6049aabeda5c4b",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "7cfca6824c15ef943c6049aabeda5c4b",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "c4c332ad2c6a34396ebecd89bc1680bb",
+      "userId": "user_6be9c54cd17ba0cc9762c5c6312554c8",
+      "channelId": "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "c4c332ad2c6a34396ebecd89bc1680bb",
+        "content": "Well, we need to take action here"
+      }
+    },
+    {
+      "id": "90318b2d6cda17381655fbbae1088c07",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "90318b2d6cda17381655fbbae1088c07",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "764a0ed5ca352d20ccd5a9eb107846b6",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "764a0ed5ca352d20ccd5a9eb107846b6",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_0.jpg"
+      }
+    },
+    {
+      "id": "57268bc702e7e2e501fc91c47e1bdd0b",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "57268bc702e7e2e501fc91c47e1bdd0b",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "416864bf5b8508ee8497c9f7026988fa",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "416864bf5b8508ee8497c9f7026988fa",
+        "content": "Well, we need to take action here"
+      }
+    },
+    {
+      "id": "9691758c4039f57ceee2ddce88a813dd",
+      "userId": "user_f4b7799b4bed65d6449d521018717b78",
+      "channelId": "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "timestamp": 16127857930000000,
+      "isSent": true,
+      "custom": {
+        "id": "9691758c4039f57ceee2ddce88a813dd",
+        "content": "Did you take x rays, too?"
+      }
+    },
+    {
+      "id": "373693821fe722d95c040380a2683cf5",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "timestamp": 16127871130000000,
+      "isSent": true,
+      "custom": {
+        "id": "373693821fe722d95c040380a2683cf5",
+        "content": "",
+        "image": "../app/src/main/res/raw/photo_1.jpg"
+      }
+    },
+    {
+      "id": "e9f38fd93612dc85fb2b53fed4341578",
+      "userId": "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+      "channelId": "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "timestamp": 16127871131000000,
+      "isSent": true,
+      "custom": {
+        "id": "e9f38fd93612dc85fb2b53fed4341578",
+        "content": "Yes, here is it"
+      }
+    },
+    {
+      "id": "c3f978e77e761bb816da6740f8dcb3d6",
+      "userId": "user_fb24c2647462bdbe09e506d30732fb8c",
+      "channelId": "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "timestamp": 16127878930000000,
+      "isSent": true,
+      "custom": {
+        "id": "c3f978e77e761bb816da6740f8dcb3d6",
+        "content": "Well, we need to take action here"
+      }
+    }
+  ]
+}

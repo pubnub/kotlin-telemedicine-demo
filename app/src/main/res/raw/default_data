@@ -1,0 +1,350 @@
+{
+  "users": [
+    {
+      "name": "Sina Sites",
+      "custom": {
+        "title": "Dr",
+        "doctor": true,
+        "username": "sina.sites",
+        "email": "sina.sites@gmail.com",
+        "mmc": "000000000"
+      },
+      "profileUrl": "https://www.gravatar.com/avatar/85fd88cd5da7fb034878352ab3ca05dd?s=256&d=identicon",
+      "id": "user_a652eb6cc34b44c4a39b28fcc24d062b"
+    },
+    {
+      "name": "Ilene Iniguez",
+      "custom": {
+        "title": "Dr",
+        "doctor": true,
+        "username": "ilene.iniguez",
+        "email": "ilene.iniguez@gmail.com",
+        "mmc": "000000001"
+      },
+      "profileUrl": "https://www.gravatar.com/avatar/e7f2d4b2b49cd562f13312e22aabfbf4?s=256&d=identicon",
+      "id": "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+    },
+
+
+    {
+      "name": "Brook Bilodeau",
+      "custom": {
+        "username": "brook.bilodeau",
+        "nric": "012345678",
+        "birthday": "2000-03-09",
+        "sex": "male",
+        "address": "4312  Maud Street, Penndel"
+      },
+      "profileUrl": "https://www.gravatar.com/avatar/e1cfc3f47ba39f5a3c6a076e0ad2e59e?s=256&d=identicon",
+      "id": "user_a673547880824a0687b3041af36a5de4"
+    },
+    {
+      "name": "Laverne Ludden",
+      "custom": {
+        "username": "laverne.ludden",
+        "nric": "123456789",
+        "birthday": "1960-03-09",
+        "sex": "female",
+        "address": "1677  Turkey Pen Road, Brooklyn"
+      },
+      "profileUrl": "https://www.gravatar.com/avatar/cfc8282027e680afc0799b537a862834?s=256&d=identicon",
+      "id": "user_102a15c8bc394bdc90d1c8eab58b1de9"
+    }
+  ],
+  "channels": [
+    {
+      "__type__": "Patient case",
+      "name": "Pyrexia of unknown origin",
+      "description": "Some long description",
+      "id": "channel_ac4e67b98b34b44c4a39466e93e",
+      "custom": {
+        "type": "case",
+        "createdAt": 15998209063274915,
+        "updated": 15998209063274915,
+        "patient": "user_a673547880824a0687b3041af36a5de4",
+        "doctors": [
+          "user_a652eb6cc34b44c4a39b28fcc24d062b",
+          "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+        ]
+      }
+    },
+    {
+      "__type__": "Patient case",
+      "name": "Meningococcal Septicaemia",
+      "description": "Some long description",
+      "id": "channel_a204f87d215a40985d35cf84bf5",
+      "custom": {
+        "type": "case",
+        "createdAt": 15998209063274916,
+        "updatedAt": 15998209063274916,
+        "patient": "user_102a15c8bc394bdc90d1c8eab58b1de9",
+        "doctors": [
+          "user_a652eb6cc34b44c4a39b28fcc24d062b",
+          "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+        ]
+      }
+    },
+
+    {
+      "__type__": "Patient groups holder",
+      "name": "Brook Bilodeau",
+      "description": "Patient",
+      "id": "channel_a673547880824a0687b3041af36a5de4",
+      "custom": {
+        "type": "patient",
+        "patient": "user_a673547880824a0687b3041af36a5de4",
+        "groups": [
+          "group_a673547880824a0687b3041af36a5de4"
+        ]
+      }
+    },
+    {
+      "__type__": "Patient groups holder",
+      "name": "Laverne Ludden",
+      "description": "Patient",
+      "id": "channel_102a15c8bc394bdc90d1c8eab58b1de9",
+      "custom": {
+        "type": "patient",
+        "patient": "user_102a15c8bc394bdc90d1c8eab58b1de9",
+        "groups": [
+          "group_102a15c8bc394bdc90d1c8eab58b1de9"
+        ]
+      }
+    },
+
+    {
+      "__type__": "Doctor groups holder",
+      "name": "Sina Sites",
+      "description": "Doctor",
+      "id": "channel_a652eb6cc34b44c4a39b28fcc24d062b",
+      "custom": {
+        "type": "doctor",
+        "doctors": ["user_a652eb6cc34b44c4a39b28fcc24d062b"],
+        "groups": [
+          "group_a652eb6cc34b44c4a39b28fcc24d062b"
+        ]
+      }
+    },
+    {
+      "__type__": "Doctor groups holder",
+      "name": "Ilene Iniguez",
+      "description": "Doctor",
+      "id": "channel_d06c7d5ddc1c4c85bd66844198b2ca38",
+      "custom": {
+        "type": "doctor",
+        "doctors": ["user_d06c7d5ddc1c4c85bd66844198b2ca38"],
+        "groups": [
+          "group_d06c7d5ddc1c4c85bd66844198b2ca38"
+        ]
+      }
+    },
+
+    {
+      "__type__": "Team groups holder",
+      "name": "Pediatrics",
+      "description": "Team",
+      "id": "channel_d06c7d5ddc1c4c85bd66844198b2ca39",
+      "custom": {
+        "type": "team",
+        "groups": [
+          "group_d06c7d5ddc1c4c85bd66844198b2ca39"
+        ],
+        "doctors": [
+          "user_d06c7d5ddc1c4c85bd66844198b2ca38",
+          "user_a652eb6cc34b44c4a39b28fcc24d062b"
+        ]
+      }
+    },
+    {
+      "__type__": "Team groups holder",
+      "name": "Neurologist",
+      "description": "Team",
+      "id": "channel_d06c7d5ddc1c4c85bd66844198b2ca48",
+      "custom": {
+        "type": "team",
+        "groups": [
+          "group_d06c7d5ddc1c4c85bd66844198b2ca48"
+        ],
+        "doctors": [
+          "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+        ]
+      }
+    },
+
+
+
+    {
+          "__type__": "Conversation doctor : doctor",
+          "name": "Dr Ilene Iniguez",
+          "description": "",
+          "id": "channel_ac4e67b98b34b44c4a39466e93e0",
+          "custom": {
+            "type": "chat",
+            "createdAt": 15998209063274915,
+            "updated": 15998209063274915,
+            "doctors": [
+              "user_a652eb6cc34b44c4a39b28fcc24d062b",
+              "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+            ]
+          }
+        },
+    {
+          "__type__": "Conversation doctor : patient",
+          "name": "Brook Bilodeau",
+          "description": "",
+          "id": "channel_ac4e67b98b34b44c4a39466e93e1",
+          "custom": {
+            "type": "chat",
+            "createdAt": 15998209063274915,
+            "updated": 15998209063274915,
+            "patient": "user_a673547880824a0687b3041af36a5de4",
+            "doctors": [
+              "user_a652eb6cc34b44c4a39b28fcc24d062b"
+            ]
+          }
+        },
+    {
+          "__type__": "Conversation doctor : patient",
+          "name": "Laverne Ludden",
+          "description": "",
+          "id": "channel_ac4e67b98b34b44c4a39466e93e2",
+          "custom": {
+            "type": "chat",
+            "createdAt": 15998209063274915,
+            "updated": 15998209063274915,
+            "patient": "user_102a15c8bc394bdc90d1c8eab58b1de9",
+            "doctors": [
+              "user_a652eb6cc34b44c4a39b28fcc24d062b"
+            ]
+          }
+        },
+
+
+    {
+          "__type__": "Conversation doctor : patient",
+          "name": "Brook Bilodeau",
+          "description": "",
+          "id": "channel_ac4e67b98b34b44c4a39466e93e3",
+          "custom": {
+            "type": "chat",
+            "createdAt": 15998209063274915,
+            "updated": 15998209063274915,
+            "patient": "user_a673547880824a0687b3041af36a5de4",
+            "doctors": [
+              "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+            ]
+          }
+        },
+    {
+          "__type__": "Conversation doctor : patient",
+          "name": "Laverne Ludden",
+          "description": "",
+          "id": "channel_ac4e67b98b34b44c4a39466e93e4",
+          "custom": {
+            "type": "chat",
+            "createdAt": 15998209063274915,
+            "updated": 15998209063274915,
+            "patient": "user_102a15c8bc394bdc90d1c8eab58b1de9",
+            "doctors": [
+              "user_d06c7d5ddc1c4c85bd66844198b2ca38"
+            ]
+          }
+        }
+  ],
+  "channelGroups" : [
+    {
+      "__type__": "Doctor Sina Sites",
+      "group": "group_a652eb6cc34b44c4a39b28fcc24d062b",
+      "channels": [
+        "channel_d06c7d5ddc1c4c85bd66844198b2ca39",
+        "channel_d06c7d5ddc1c4c85bd66844198b2ca48",
+        "channel_ac4e67b98b34b44c4a39466e93e",
+        "channel_a204f87d215a40985d35cf84bf5",
+        "channel_ac4e67b98b34b44c4a39466e93e0",
+        "channel_ac4e67b98b34b44c4a39466e93e1",
+        "channel_ac4e67b98b34b44c4a39466e93e2"
+      ]
+    },
+    {
+      "__type__": "Doctor Ilene Iniguez",
+      "group": "group_d06c7d5ddc1c4c85bd66844198b2ca38",
+      "channels": [
+        "channel_d06c7d5ddc1c4c85bd66844198b2ca39",
+        "channel_d06c7d5ddc1c4c85bd66844198b2ca48",
+        "channel_ac4e67b98b34b44c4a39466e93e",
+        "channel_a204f87d215a40985d35cf84bf5",
+        "channel_ac4e67b98b34b44c4a39466e93e0",
+        "channel_ac4e67b98b34b44c4a39466e93e3",
+        "channel_ac4e67b98b34b44c4a39466e93e4"
+      ]
+    },
+
+
+    {
+      "__type__": "Team Pediatrics",
+      "group": "group_d06c7d5ddc1c4c85bd66844198b2ca39",
+      "channels": [
+        "channel_ac4e67b98b34b44c4a39466e93e"
+      ]
+    },
+    {
+      "__type__": "Team Neurologist",
+      "group": "group_d06c7d5ddc1c4c85bd66844198b2ca48",
+      "channels": [
+        "channel_a204f87d215a40985d35cf84bf5"
+      ]
+    },
+
+
+    {
+      "__type__": "Brook Bilodeau",
+      "group": "group_a673547880824a0687b3041af36a5de4",
+      "channels": [
+        "channel_a673547880824a0687b3041af36a5de4",
+        "channel_ac4e67b98b34b44c4a39466e93e1",
+        "channel_ac4e67b98b34b44c4a39466e93e3"
+      ]
+    },
+    {
+      "__type__": "Laverne Ludden",
+      "group": "group_102a15c8bc394bdc90d1c8eab58b1de9",
+      "channels": [
+        "channel_102a15c8bc394bdc90d1c8eab58b1de9",
+        "channel_ac4e67b98b34b44c4a39466e93e2",
+        "channel_ac4e67b98b34b44c4a39466e93e4"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "c0f83338-f0d5-11ea-adc1-0242ac120002",
+      "userId": "user_a652eb6cc34b44c4a39b28fcc24d062b",
+      "channelId": "channel_ac4e67b98b34b44c4a39466e93e",
+      "timestamp": 15993584320000000,
+      "custom": {
+        "id": "c0f83338-f0d5-11ea-adc1-0242ac120002",
+        "content": "Hello!"
+      }
+    },
+    {
+      "id": "c0f83338-f0d5-11ea-adc1-0242ac120003",
+      "userId": "user_d06c7d5ddc1c4c85bd66844198b2ca38",
+      "channelId": "channel_ac4e67b98b34b44c4a39466e93e",
+      "timestamp": 15994684320000000,
+      "custom": {
+        "id": "c0f83338-f0d5-11ea-adc1-0242ac120003",
+        "content": "Wow"
+      }
+    },
+    {
+      "id": "c0f83338-f0d5-11ea-adc1-0242ac120004",
+      "userId": "user_d06c7d5ddc1c4c85bd66844198b2ca38",
+      "channelId": "channel_ac4e67b98b34b44c4a39466e93e",
+      "timestamp": 15994685320000000,
+      "custom": {
+        "id": "c0f83338-f0d5-11ea-adc1-0242ac120004",
+        "content": "Look at this. Message format:  @ssites, *bold*, _italic_, ~strikethrough~, `MyClass.myMethod`, http://clickable.link -> clickable link, opening it into the browser"
+      }
+    }
+  ]
+}

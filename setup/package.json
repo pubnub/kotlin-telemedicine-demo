@@ -1,0 +1,27 @@
+{
+  "name": "dr-chat-kotlin",
+  "version": "0.0.1",
+  "description": "DrChat - A Reference Application for PubNub with Kotlin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/pubnub": "^4.28.2",
+    "pubnub": "^4.28.3"
+  },
+  "scripts": {
+    "start": "node populate.js",
+    "build": "node populate.js",
+    "setup": "node populate.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "cli-progress": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "file-system": "^2.2.2",
+    "prompts": "^2.3.2",
+    "mime-types": "^2.1.28"
+  }
+}

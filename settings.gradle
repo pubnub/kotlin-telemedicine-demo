@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name = "Telemedicine"
+include ':app:data'
+include ':app:network'
+include ':framework'
+include ':compose'

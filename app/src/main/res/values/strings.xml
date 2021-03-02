@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrChat</string>
+
+    <string name="welcome_message">Hello, %s</string>
+
+    <string name="navigation_cases">Cases</string>
+    <string name="navigation_chats">Chats</string>
+    <string name="navigation_contacts">Contacts</string>
+    <string name="navigation_test_result">Test Result</string>
+    <string name="navigation_prescription">Prescription</string>
+</resources>

@@ -1,0 +1,54 @@
+String.metaClass.getIsNullOrBlank = { delegate == null || delegate.allWhitespace }
+
+task initialize {
+
+    logger.quiet("Initialization")
+
+    def publishKey = getPublishKey()
+    def subscribeKey = getSubscribeKey()
+    setProperties(publishKey, subscribeKey)
+
+    doFirst {
+
+    }
+
+    doLast {
+        logger.quiet("Finished")
+    }
+
+
+}
+
+def getPublishKey() {
+    return getKey(PUB_KEY, "pub-", "Publish")
+}
+
+def getSubscribeKey() {
+    return getKey(SUB_KEY, "sub-", "Subscribe")
+}
+
+def getKey(key, startsWith, description) {
+    def temp = key
+
+    if(temp.isNullOrBlank){
+        while(temp?.isNullOrBlank) {
+            logger.quiet("> Enter your $description key")
+            temp = System.in.newReader().readLine()
+
+            if(temp?.startsWith(startsWith)) break
+            logger.quiet("Invalid $description key")
+            temp=""
+        }
+    } else {
+        logger.quiet("$description key detected in gradle.properties")
+    }
+
+    return temp
+}
+
+def setProperties(pubKey, subKey) {
+    ant.propertyfile(file: "gradle.properties"){
+        entry( key: "PUB_KEY", value: "$pubKey")
+        entry( key: "SUB_KEY", value: "$subKey")
+    }
+}

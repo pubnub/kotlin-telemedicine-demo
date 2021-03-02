@@ -1,0 +1,157 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id "org.jlleitschuh.gradle.ktlint" version "9.4.1"
+    id "name.remal.check-dependency-updates"
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.pubnub.demo.telemedicine"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+        
+        buildConfigField "String", "PUB_KEY", "\"${project.property('com.pubnub.publishKey')}\""
+        buildConfigField "String", "SUB_KEY", "\"${project.property('com.pubnub.subscribeKey')}\""
+        buildConfigField "String", "CIPHER_KEY", "\"${project.property('com.pubnub.cipherKey')}\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    sourceSets.all {
+        java.srcDir("src/$name/kotlin")
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+        useIR = true
+        freeCompilerArgs += ["-Xskip-prerelease-check", "-Xskip-metadata-version-check"]
+
+        // Opt-in to experimental compose APIs
+        freeCompilerArgs += '-Xopt-in=kotlin.RequiresOptIn'
+        // Enable experimental coroutines APIs, including collectAsState()
+        freeCompilerArgs += '-Xopt-in=kotlinx.coroutines.ExperimentalCoroutinesApi'
+    }
+    composeOptions {
+        //kotlinCompilerVersion kotlin_version
+        kotlinCompilerExtensionVersion compose_version
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation project(path: ':compose')
+    implementation project(path: ':framework')
+    implementation project(path: ':app:data')
+    implementation project(path: ':app:network')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
+
+    // region Androidx
+    implementation "androidx.activity:activity-compose:1.3.0-alpha03"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.material:material:1.4.0-alpha01'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    // endregion
+
+    // region Utils
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+    implementation "androidx.core:core-ktx:1.3.2"
+    implementation "androidx.fragment:fragment-ktx:1.3.0"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha02"
+    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.3.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation 'joda-time:joda-time:2.10.10'
+
+    implementation("io.reactivex.rxjava3:rxkotlin:3.0.1")
+    // endregion
+
+    // region DI
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    implementation project(path: ':app:data')
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03'
+    kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha03'
+    // endregion
+
+    // region Jetpack Compose
+    implementation "androidx.compose.foundation:foundation-layout:${compose_version}"
+    implementation "androidx.compose.material:material:${compose_version}"
+    implementation "androidx.compose.material:material-icons-core:${compose_version}"
+    implementation "androidx.compose.material:material-icons-extended:${compose_version}"
+    implementation "androidx.compose.ui:ui-tooling:${compose_version}"
+    implementation "androidx.compose.ui:ui-graphics:${compose_version}"
+    implementation "androidx.compose.runtime:runtime-livedata:${compose_version}"
+    implementation "androidx.compose.runtime:runtime:${compose_version}"
+    implementation("androidx.paging:paging-compose:1.0.0-alpha08") {
+        exclude group: "androidx.compose.foundation"
+    }
+    implementation "androidx.navigation:navigation-compose:1.0.0-alpha08"
+    // endregion
+
+    // region Room
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    // Kotlin Extensions and Coroutines support for Room
+    implementation "androidx.room:room-ktx:$room_version"
+
+    // encryption
+    implementation "net.zetetic:android-database-sqlcipher:4.4.0@aar"
+    implementation "androidx.sqlite:sqlite-ktx:2.1.0"
+    // endregion
+
+    implementation "dev.chrisbanes.accompanist:accompanist-coil:0.6.1"
+    implementation 'com.pubnub:pubnub-kotlin:5.1.1'
+
+    // region Unit Test
+    testImplementation 'junit:junit:4.13.2'
+    // endregion
+
+    // region Android Test
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    // endregion
+}
+
+
+subprojects {
+
+    apply plugin: "org.jlleitschuh.gradle.ktlint"
+
+    // Optionally configure plugin
+    ktlint {
+        verbose = true
+        additionalEditorconfigFile = file("../check/.editorconfig")
+    }
+}
+
+apply from: 'pushPhotos.gradle'

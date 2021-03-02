@@ -1,0 +1,79 @@
+[
+  {
+    "__type__": "Patient Aaron Jones",
+    "group": "group_60287274c5e04c824598a9fcb91d81f3",
+    "channels": [
+      "channel_84f52b80648ee89d2382655f703e32eb"
+    ]
+  },
+  {
+    "__type__": "Patient Amelia Kendrick",
+    "group": "group_ad0b8ce6e97f4133c6180ea51a43df56",
+    "channels": [
+      "channel_f2e1c6ec4113d5320c51c3878642b81b"
+    ]
+  },
+  {
+    "__type__": "Patient Alice D. Bennett",
+    "group": "group_8404ac76816016d2b13d86b5ad5f18c4",
+    "channels": [
+      "channel_424f9f717f781a525b9707ed3cade53b"
+    ]
+  },
+  {
+    "__type__": "Patient Beth Gillies",
+    "group": "group_2539577323958f495bdbd83af9d7e9c6",
+    "channels": [
+      "channel_b57ac1c93012e3eeeaa10d4604553320"
+    ]
+  },
+  {
+    "__type__": "Patient Ben Kowalski",
+    "group": "group_20f04e6cacd68a28f228ec1e03640a78",
+    "channels": [
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e"
+    ]
+  },
+  {
+    "__type__": "Patient Cindy Abrams",
+    "group": "group_68be48debf42308a99694c32f7b8cae0",
+    "channels": [
+      "channel_6c1f551c86e7cab1f12515780136e13c"
+    ]
+  },
+  {
+    "__type__": "Patient Hara Kagawa",
+    "group": "group_744a710015e978ea04884ed94012afa7",
+    "channels": [
+      "channel_ef0fb98bd61a6cf2f2576b094123ba9c"
+    ]
+  },
+  {
+    "__type__": "Patient Hasnah Simpson",
+    "group": "group_13f5f64b43c29f8315bfeb0eadf28841",
+    "channels": [
+      "channel_83c1cdac2192ff42ff92cba22ae36c79"
+    ]
+  },
+  {
+    "__type__": "Patient Maryah Westbrock",
+    "group": "group_e71b68ea5d51249bf7d8fd47d96e2707",
+    "channels": [
+      "channel_25f00156f3b053f4f86bca59ad1e2156"
+    ]
+  },
+  {
+    "__type__": "Patient Saleha Ahmad",
+    "group": "group_8878cf6dbf833cd5d2855b2b31617f9f",
+    "channels": [
+      "channel_2c028d2d78dd9852be05e285dfdd84d2"
+    ]
+  },
+  {
+    "__type__": "Patient Tomas Brown",
+    "group": "group_8a80b2f6c5df8a2666c254971067ad0e",
+    "channels": [
+      "channel_2b6024f56e8459094b9817677034c3ed"
+    ]
+  }
+]

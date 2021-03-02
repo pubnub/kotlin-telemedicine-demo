@@ -1,0 +1,206 @@
+[
+  {
+    "__type__": "Saleha Ahmad Case",
+    "name": "Pyrexia of unknown origin",
+    "id": "channel_1b7c3abfa84c036346a6da783a3e5220",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updated": 15998209063274915,
+      "patient": "user_8878cf6dbf833cd5d2855b2b31617f9f",
+      "doctors": [
+        "user_22d17a254947f6c7e47ede25c38776b6",
+        "user_6be9c54cd17ba0cc9762c5c6312554c8",
+        "user_075b9dde39c89c1f5750e3e6280af829",
+        "user_f4b7799b4bed65d6449d521018717b78",
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+        "user_ac058b143802b5b327a0c69e8d9960b2"
+      ]
+    }
+  },
+  {
+    "__type__": "Hara Kagawa Case",
+    "name": "Pneumonia",
+    "id": "channel_d067079d1ceb4aa18da7d91a740bebea",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updated": 15998209063274915,
+      "patient": "user_744a710015e978ea04884ed94012afa7",
+      "doctors": [
+        "user_f4b7799b4bed65d6449d521018717b78",
+        "user_6be9c54cd17ba0cc9762c5c6312554c8",
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+        "user_fb24c2647462bdbe09e506d30732fb8c",
+        "user_9fcd0800d1e5b73809b2ea7f32c39127",
+        "user_22d17a254947f6c7e47ede25c38776b6"
+      ]
+    }
+  },
+  {
+    "__type__": "Maryah Westbrock Case",
+    "name": "Appendicitis",
+    "id": "channel_915f276f188c40a5a32607ef185464d5",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updated": 15998209063274915,
+      "patient": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+      "doctors": [
+        "user_fb24c2647462bdbe09e506d30732fb8c",
+        "user_d06c7d5ddc1c4c85bd66844198b2ca38",
+        "user_ac058b143802b5b327a0c69e8d9960b2",
+        "user_26ed21df2d310014d05cd932a03314bb",
+        "user_075b9dde39c89c1f5750e3e6280af829"
+      ]
+    }
+  },
+  {
+    "__type__": "Beth Gillies Case",
+    "name": "Migraine",
+    "id": "channel_c108b4089223869324488db6f48cffe4",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998207063274915,
+      "patient": "user_1ce3f408aba9fd0137988cbd37fd383e",
+      "doctors": [
+        "user_26ed21df2d310014d05cd932a03314bb",
+        "user_075b9dde39c89c1f5750e3e6280af829",
+        "user_f4b7799b4bed65d6449d521018717b78",
+        "user_22d17a254947f6c7e47ede25c38776b6",
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+        "user_ac058b143802b5b327a0c69e8d9960b2",
+        "user_fb24c2647462bdbe09e506d30732fb8c",
+        "user_9fcd0800d1e5b73809b2ea7f32c39127",
+        "user_6be9c54cd17ba0cc9762c5c6312554c8"
+      ]
+    }
+  },
+  {
+    "__type__": "Ben Kowalski Case",
+    "name": "Meningococcal Septicaemia",
+    "id": "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209063174915,
+      "patient": "user_20f04e6cacd68a28f228ec1e03640a78",
+      "doctors": [
+        "user_26ed21df2d310014d05cd932a03314bb",
+        "user_075b9dde39c89c1f5750e3e6280af829",
+        "user_f4b7799b4bed65d6449d521018717b78",
+        "user_22d17a254947f6c7e47ede25c38776b6",
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+        "user_ac058b143802b5b327a0c69e8d9960b2",
+        "user_fb24c2647462bdbe09e506d30732fb8c",
+        "user_9fcd0800d1e5b73809b2ea7f32c39127",
+        "user_6be9c54cd17ba0cc9762c5c6312554c8"
+      ]
+    }
+  },
+  {
+    "__type__": "Hasnah Simpson Case",
+    "name": "Dengue Fever",
+    "id": "channel_bd8faedd0f86b2e4efef2ecb26482800",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209053224915,
+      "patient": "user_13f5f64b43c29f8315bfeb0eadf28841",
+      "doctors": [
+        "user_26ed21df2d310014d05cd932a03314bb",
+        "user_075b9dde39c89c1f5750e3e6280af829",
+        "user_f4b7799b4bed65d6449d521018717b78",
+        "user_22d17a254947f6c7e47ede25c38776b6",
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+        "user_ac058b143802b5b327a0c69e8d9960b2",
+        "user_fb24c2647462bdbe09e506d30732fb8c",
+        "user_9fcd0800d1e5b73809b2ea7f32c39127",
+        "user_6be9c54cd17ba0cc9762c5c6312554c8"
+      ]
+    }
+  },
+  {
+    "__type__": "Tomas Brown Case",
+    "name": "Diabetes",
+    "id": "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209063274915,
+      "patient": "user_8a80b2f6c5df8a2666c254971067ad0e",
+      "doctors": [
+        "user_26ed21df2d310014d05cd932a03314bb",
+        "user_075b9dde39c89c1f5750e3e6280af829",
+        "user_f4b7799b4bed65d6449d521018717b78",
+        "user_22d17a254947f6c7e47ede25c38776b6",
+        "user_c082ef6149aa4fe5fb0ada4d7660cf40",
+        "user_ac058b143802b5b327a0c69e8d9960b2",
+        "user_fb24c2647462bdbe09e506d30732fb8c",
+        "user_9fcd0800d1e5b73809b2ea7f32c39127",
+        "user_6be9c54cd17ba0cc9762c5c6312554c8"
+      ]
+    }
+  },
+  {
+    "__type__": "Aaron Jones Case",
+    "name": "Joint Pain",
+    "id": "channel_26de5b6ae71c8ebf500abd3d720724b3",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209063274915,
+      "patient": "user_60287274c5e04c824598a9fcb91d81f3",
+      "doctors": [
+      ]
+    }
+  },
+  {
+    "__type__": "Amelia Kendrick Case",
+    "name": "Stomach ache",
+    "id": "channel_e29acdf7d65a5fdf2e227c7f0fe53050",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209063274915,
+      "patient": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+      "doctors": [
+      ]
+    }
+  },
+  {
+    "__type__": "Alice D. Bennett Case",
+    "name": "Stomach ache",
+    "id": "channel_1540e6b42aec7563d7eb0c83a8975be0",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209063274915,
+      "patient": "user_8404ac76816016d2b13d86b5ad5f18c4",
+      "doctors": [
+      ]
+    }
+  },
+  {
+    "__type__": "Cindy Abrams Case",
+    "name": "Malaria",
+    "id": "channel_531558e138f3ce16cc4e346f17ddfd39",
+    "custom": {
+      "type": "case",
+      "createdAt": 15998209063274915,
+      "updatedAt": 15998209063274915,
+      "closedAt": 15998209063274915,
+      "patient": "user_68be48debf42308a99694c32f7b8cae0",
+      "doctors": [
+      ]
+    }
+  }
+]

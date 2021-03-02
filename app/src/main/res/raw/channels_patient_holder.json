@@ -1,0 +1,145 @@
+[
+  {
+    "__type__": "Patient groups holder",
+    "name": "Aaron Jones",
+    "description": "Patient",
+    "id": "channel_60287274c5e04c824598a9fcb91d81f3",
+    "custom": {
+      "type": "patient",
+      "patient": "user_60287274c5e04c824598a9fcb91d81f3",
+      "groups": [
+        "group_60287274c5e04c824598a9fcb91d81f3"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Amelia Kendrick",
+    "description": "Patient",
+    "id": "channel_ad0b8ce6e97f4133c6180ea51a43df56",
+    "custom": {
+      "type": "patient",
+      "patient": "user_ad0b8ce6e97f4133c6180ea51a43df56",
+      "groups": [
+        "group_ad0b8ce6e97f4133c6180ea51a43df56"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Alice D. Bennett",
+    "description": "Patient",
+    "id": "channel_8404ac76816016d2b13d86b5ad5f18c4",
+    "custom": {
+      "type": "patient",
+      "patient": "user_8404ac76816016d2b13d86b5ad5f18c4",
+      "groups": [
+        "group_8404ac76816016d2b13d86b5ad5f18c4"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Beth Gillies",
+    "description": "Patient",
+    "id": "channel_1ce3f408aba9fd0137988cbd37fd383e",
+    "custom": {
+      "type": "patient",
+      "patient": "user_1ce3f408aba9fd0137988cbd37fd383e",
+      "groups": [
+        "group_1ce3f408aba9fd0137988cbd37fd383e"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Ben Kowalski",
+    "description": "Patient",
+    "id": "channel_20f04e6cacd68a28f228ec1e03640a78",
+    "custom": {
+      "type": "patient",
+      "patient": "user_20f04e6cacd68a28f228ec1e03640a78",
+      "groups": [
+        "group_20f04e6cacd68a28f228ec1e03640a78"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Cindy Abrams",
+    "description": "Patient",
+    "id": "channel_68be48debf42308a99694c32f7b8cae0",
+    "custom": {
+      "type": "patient",
+      "patient": "user_68be48debf42308a99694c32f7b8cae0",
+      "groups": [
+        "group_68be48debf42308a99694c32f7b8cae0"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Hara Kagawa",
+    "description": "Patient",
+    "id": "channel_744a710015e978ea04884ed94012afa7",
+    "custom": {
+      "type": "patient",
+      "patient": "user_744a710015e978ea04884ed94012afa7",
+      "groups": [
+        "group_744a710015e978ea04884ed94012afa7"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Hasnah Simpson",
+    "description": "Patient",
+    "id": "channel_13f5f64b43c29f8315bfeb0eadf28841",
+    "custom": {
+      "type": "patient",
+      "patient": "user_13f5f64b43c29f8315bfeb0eadf28841",
+      "groups": [
+        "group_13f5f64b43c29f8315bfeb0eadf28841"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Maryah Westbrock",
+    "description": "Patient",
+    "id": "channel_e71b68ea5d51249bf7d8fd47d96e2707",
+    "custom": {
+      "type": "patient",
+      "patient": "user_e71b68ea5d51249bf7d8fd47d96e2707",
+      "groups": [
+        "group_e71b68ea5d51249bf7d8fd47d96e2707"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Saleha Ahmad",
+    "description": "Patient",
+    "id": "channel_8878cf6dbf833cd5d2855b2b31617f9f",
+    "custom": {
+      "type": "patient",
+      "patient": "user_8878cf6dbf833cd5d2855b2b31617f9f",
+      "groups": [
+        "group_8878cf6dbf833cd5d2855b2b31617f9f"
+      ]
+    }
+  },
+  {
+    "__type__": "Patient groups holder",
+    "name": "Tomas Brown",
+    "description": "Patient",
+    "id": "channel_8a80b2f6c5df8a2666c254971067ad0e",
+    "custom": {
+      "type": "patient",
+      "patient": "user_8a80b2f6c5df8a2666c254971067ad0e",
+      "groups": [
+        "group_8a80b2f6c5df8a2666c254971067ad0e"
+      ]
+    }
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "__type__": "Doctor Akio Chén",
+    "group": "group_26ed21df2d310014d05cd932a03314bb",
+    "channels": [
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_915f276f188c40a5a32607ef185464d5",
+      "channel_2c028d2d78dd9852be05e285dfdd84d2"
+    ]
+  },
+  {
+    "__type__": "Doctor Alexander Wolfe",
+    "group": "group_075b9dde39c89c1f5750e3e6280af829",
+    "channels": [
+      "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "channel_915f276f188c40a5a32607ef185464d5",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_84f52b80648ee89d2382655f703e32eb"
+    ]
+  },
+  {
+    "__type__": "Doctor Anna Berry",
+    "group": "group_f4b7799b4bed65d6449d521018717b78",
+    "channels": [
+      "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_ef0fb98bd61a6cf2f2576b094123ba9c"
+    ]
+  },
+  {
+    "__type__": "Doctor Badri Mangino",
+    "group": "group_22d17a254947f6c7e47ede25c38776b6",
+    "channels": [
+      "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_25f00156f3b053f4f86bca59ad1e2156"
+    ]
+  },
+  {
+    "__type__": "Doctor Bob Caster",
+    "group": "group_c082ef6149aa4fe5fb0ada4d7660cf40",
+    "channels": [
+      "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_f2e1c6ec4113d5320c51c3878642b81b"
+    ]
+  },
+  {
+    "__type__": "Doctor Casey Blume",
+    "group": "group_ac058b143802b5b327a0c69e8d9960b2",
+    "channels": [
+      "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "channel_915f276f188c40a5a32607ef185464d5",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_83c1cdac2192ff42ff92cba22ae36c79",
+      "channel_424f9f717f781a525b9707ed3cade53b"
+    ]
+  },
+  {
+    "__type__": "Doctor Mike Adams",
+    "group": "group_fb24c2647462bdbe09e506d30732fb8c",
+    "channels": [
+      "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "channel_915f276f188c40a5a32607ef185464d5",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_2b6024f56e8459094b9817677034c3ed"
+    ]
+  },
+  {
+    "__type__": "Doctor Sam Smith",
+    "group": "group_9fcd0800d1e5b73809b2ea7f32c39127",
+    "channels": [
+      "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_b57ac1c93012e3eeeaa10d4604553320",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9"
+    ]
+  },
+  {
+    "__type__": "Doctor Zaidi Garter Wagner",
+    "group": "group_6be9c54cd17ba0cc9762c5c6312554c8",
+    "channels": [
+      "channel_1b7c3abfa84c036346a6da783a3e5220",
+      "channel_d067079d1ceb4aa18da7d91a740bebea",
+      "channel_c108b4089223869324488db6f48cffe4",
+      "channel_6a36ba0fdfd9ee9b5eccae8ff424e34e",
+      "channel_bd8faedd0f86b2e4efef2ecb26482800",
+      "channel_bc202a93d9ba460d3a0cb5602950e1f9",
+      "channel_71b05b1c46f9d0d3e5a80823d6bdf5f1"
+    ]
+  }
+]

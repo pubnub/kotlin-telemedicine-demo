@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Akio Chén",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "akio.chen",
+      "email": "akio.chen@gmail.com",
+      "hospital": "Cleveland Clinic",
+      "specialization": "Ophthalmologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/professional_doctor_office-d6d39ef7a6fb3287a19af5b70c4c777e-8972c1.png",
+    "id": "user_26ed21df2d310014d05cd932a03314bb"
+  },
+  {
+    "name": "Alexander Wolfe",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "alexander.wolfe",
+      "email": "alexander.wolfe@gmail.com",
+      "hospital": "Mayo Clinic",
+      "specialization": "Orthopaedist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_smiling_handsome_male_doctor_man-abe6a9adfc322800a12e75590503ef09-6cd8a2.png",
+    "id": "user_075b9dde39c89c1f5750e3e6280af829"
+  },
+  {
+    "name": "Anna Berry",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "anna.berry",
+      "email": "anna.berry@gmail.com",
+      "hospital": "Kindred Hospital",
+      "specialization": "Cardiologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/black_nurse_isolated_hospital-be792cf8a4520e0ddc522d90817eb301-63328a.png",
+    "id": "user_f4b7799b4bed65d6449d521018717b78"
+  },
+  {
+    "name": "Badri Mangino",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "badri.mangino",
+      "email": "badri.mangino@gmail.com",
+      "hospital": "Massachusetts General Hospital",
+      "specialization": "Neurlogist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/young_handsome_african_man_doctor_gray-1e8bfcee7c1b1e94d0f3e4be29ceccca-ecdf18.png",
+    "id": "user_22d17a254947f6c7e47ede25c38776b6"
+  },
+  {
+    "name": "Bob Caster",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "bob.caster",
+      "email": "bob.caster@gmail.com",
+      "hospital": "Johns Hopkins Hospital",
+      "specialization": "Endocrinologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_of_professional_doctor_holding_the_chest_x_ray_shot_and_looking_at_camera-f1028199ed68f8bded65ba32485861b3-120ca6.png",
+    "id": "user_c082ef6149aa4fe5fb0ada4d7660cf40"
+  },
+  {
+    "name": "Casey Blume",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "casey.blume",
+      "email": "casey.blume@gmail.com",
+      "hospital": "UCLA Medical Center",
+      "specialization": "Gastroenterologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/confident_middle_aged_woman_doctor_wearing_medical_robe_and_stethoscope_standing_in_profile_view_on_isolated_orange_wall_with_copy_space-0d97acaca7e90a9daa4b656602f8dbbc-397645.png",
+    "id": "user_ac058b143802b5b327a0c69e8d9960b2"
+  },
+  {
+    "name": "Mike Adams",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "mike.adams",
+      "email": "mike.adams@gmail.com",
+      "hospital": "Reginal Medical Center",
+      "specialization": "Ginecologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_smiling_asian_medical_male_doctor_standing_front_blurred_interior_hospital-b517f2ff0b9f0e145b90478bce8392d7-41a6fd.png",
+    "id": "user_fb24c2647462bdbe09e506d30732fb8c"
+  },
+  {
+    "name": "Sam Smith",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "sam.smith",
+      "email": "sam.smith@gmail.com",
+      "hospital": "Washington Hospital",
+      "specialization": "Radiologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/asian_young_main_group_hospital_professional-c0ba747cc87f47e9e774a98d96ab200e.png",
+    "id": "user_9fcd0800d1e5b73809b2ea7f32c39127"
+  },
+  {
+    "name": "Zaidi Garter Wagner",
+    "custom": {
+      "title": "Dr.",
+      "doctor": true,
+      "username": "zaidi.garter.wagner",
+      "email": "zaidi.garter.wagner@gmail.com",
+      "hospital": "Cedars-Sinai Medical Center",
+      "specialization": "Dermatologist"
+    },
+    "profileUrl": "https://github.com/pubnub/kotlin-telemedicine-demo/blob/master/setup/users/portrait_of_doctor-7af1f85a067d4dbae743e8527a20b93f-8fb27d.png",
+    "id": "user_6be9c54cd17ba0cc9762c5c6312554c8"
+  }
+]

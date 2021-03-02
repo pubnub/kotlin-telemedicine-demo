@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_button">Login</string>
+
+    <string name="login_field_hint">Username</string>
+    <string name="email_field_hint">Email</string>
+    <string name="password_field_hint">Password</string>
+
+    <string name="login_user_type_hint">"I'm a physician"</string>
+</resources>

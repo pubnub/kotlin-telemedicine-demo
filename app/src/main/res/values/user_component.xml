@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY physicianPrefix "Dr.">]>
+<resources>
+    <string name="patient_description">%d yo • %s</string>
+    <string name="physician_description">%s • %s</string>
+    <string name="physician_prefix">&physicianPrefix;</string>
+    <string name="physician_name">&physicianPrefix; %s</string>
+</resources>

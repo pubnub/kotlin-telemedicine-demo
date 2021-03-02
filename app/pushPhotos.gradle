@@ -1,0 +1,41 @@
+task pushPhotos {
+    doLast {
+        println 'Copy files to device Download directory'
+        def rawPath = 'src/main/res/raw'
+        def destinationPath = '/storage/emulated/0/Pictures'
+
+        def intent = 'android.intent.action.MEDIA_SCANNER_SCAN_FILE'
+
+        def files = fileTree(dir: rawPath).matching {
+            include "**/*.jpg"
+        }.filter {
+            it.isFile()
+        }.files
+
+        files.each { file ->
+            def destinationFile = "${destinationPath}/${file.name}"
+            println "Copy ${file} -> ${destinationFile}"
+
+            // copy files to destination
+            project.exec({
+                workingDir(project.projectDir)
+                def clearDataCommand = [project.android.getAdbExe().toString(), 'push', '--sync', file, destinationPath]
+                commandLine clearDataCommand
+            })
+
+            // send Intent to refresh Gallery
+            println "> send refresh Intent to Gallery"
+            project.exec({
+                workingDir(project.projectDir)
+                def script = "am broadcast -a '${intent}' -d 'file://${destinationFile}'"
+                def notifyCommand = [project.android.getAdbExe().toString(), 'shell', script]
+                commandLine notifyCommand
+            })
+        }
+    }
+}
+
+afterEvaluate {
+//    installDebug.dependsOn pushPhotos
+    //assembleDebug.dependsOn pushPhotos
+}

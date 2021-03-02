@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="file_selector_gallery">Gallery</string>
+    <string name="file_selector_camera">Camera</string>
+    <string name="file_selector_document">Documents</string>
+</resources>
