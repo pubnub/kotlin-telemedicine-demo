@@ -10,8 +10,8 @@ explore the code to see how we built it.
 
 
 
-![Login View](screenshot/login.png) | ![Doctor Dashboard](screenshot/cases.png) | ![Group Chat](screenshot/group-chat.png) | ![1:1 Chat](screenshot/chat.png) 
---- | ---- | ---- | ---- |
+![Login View](screenshot/login.png) | ![Doctor Dashboard](screenshot/cases.png) | ![Group Chat](screenshot/group-chat.png) |
+--- | ---- | ---- |
 
 The application demonstrates how to build a chat application using:
 
