@@ -83,6 +83,7 @@ fun DashboardView(
     Background {
 
         Scaffold(
+            modifier = Modifier.fillMaxSize(),
             scaffoldState = state,
             topBar = {
                 MyAppBar(
