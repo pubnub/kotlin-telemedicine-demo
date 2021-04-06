@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/pubnub/kotlin-telemedicine-demo.svg?branch=master)](https://travis-ci.com/pubnub/kotlin-telemedicine-demo)
 
 The DrChat app demonstrates how to build a feature-rich chat and team collaboration application
-using [PubNub Chat](https://www.pubnub.com/docs/chat/quickstart). Learn how to manage users, join
+using [PubNub Chat](https://www.pubnub.com/docs/chat/quickstart) and [PubNub Kotlin SDK](https://www.pubnub.com/docs/sdks/kotlin). Learn how to manage users, join
 chat rooms, and send messages with PubNub. Learn how to build advanced features like profanity
 filtering, gifs, and link previews. You can download the project to run on your local machine, and
 explore the code to see how we built it.
@@ -33,6 +33,7 @@ The application demonstrates how to build a chat application using:
 
 - [Node.js](https://nodejs.org/en/)
 - [PubNub Account](https://dashboard.pubnub.com/)
+- [PubNub Kotlin SDK 5.1.3+](https://www.pubnub.com/docs/sdks/kotlin)
 - [Android Studio Canary 8](https://developer.android.com/studio/preview)
 
 ## PubNub KeySet 
