@@ -111,7 +111,7 @@ For this project we suggest to create two **Pixel 2** devices with **Android Q**
    internet to download it.
    ![AVD Software](screenshot/avd-software.png)
 
-1. Provide your own device name in **AVD Name** field and click **Next**.
+1. Provide your own device name in **AVD Name** field and click **Finish**.
    ![AVD Name](screenshot/avd-name.png)
 
 1. Repeat these steps for creating the second emulator.
