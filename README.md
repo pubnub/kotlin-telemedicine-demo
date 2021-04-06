@@ -8,28 +8,26 @@ chat rooms, and send messages with PubNub. Learn how to build advanced features 
 filtering, gifs, and link previews. You can download the project to run on your local machine, and
 explore the code to see how we built it.
 
-
-
 ![Login View](screenshot/login.png) | ![Doctor Dashboard](screenshot/cases.png) | ![Group Chat](screenshot/group-chat.png) |
 --- | ---- | ---- |
 
 The application demonstrates how to build a chat application using:
 
-- PubNub
-- Kotlin
-- Jetpack Compose
-- Coroutines
+- [PubNub](https://www.pubnub.com/)
+- [Kotlin](https://kotlinlang.org/)
+- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
 
 ## Features
 
-- 1:1 and group messaging,
-- Fetching history of missed messages,
-- Encrypted messages and database,
-- Offline / online presence indicator,
-- Typing indicator,
-- Message receipts,
-- File sharing.
-
+- 1:1 messaging between patients and doctors
+- Group messaging between doctors via cases
+- Fetching history of missed messages
+- Encrypted messages for privacy
+- Offline / online presence indicator
+- Typing indicators to show activity 
+- Message receipts in 1:1 messaging
+- File upload to share images and files
 
 ## Requirements
 
@@ -91,7 +89,6 @@ The application demonstrates how to build a chat application using:
    
    If you need to create new emulator please check next section.
 
-
 ## Creating an emulator
 
 For this project we suggest to create two **Pixel 2** devices with **Android Q** (API 29) system.
@@ -117,7 +114,6 @@ For this project we suggest to create two **Pixel 2** devices with **Android Q**
 1. Repeat these steps for creating the second emulator.
 
 For more information please follow [official guide to create and manage virtual devices](https://developer.android.com/studio/run/managing-avds).
-
 
 ## Changing properties
 
