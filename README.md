@@ -97,6 +97,7 @@ For this project we suggest to create two **Pixel 2** devices with **Android Q**
 
 1. Open **AVD Manager** - select **Tools / AVD Manager**.
    ![Open AVD](screenshot/avd-open.png)
+   
 1. Click **Create Virtual Device…**, at the bottom of the AVD Manager dialog.
    ![AVD](screenshot/avd-dialog.png)
 
