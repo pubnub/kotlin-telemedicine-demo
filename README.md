@@ -1,4 +1,4 @@
-# PubNub DrChat
+# PubNub Telemedicine App
 
 [![Build Status](https://travis-ci.com/pubnub/kotlin-telemedicine-demo.svg?branch=master)](https://travis-ci.com/pubnub/kotlin-telemedicine-demo)
 
