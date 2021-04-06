@@ -48,9 +48,7 @@ The application demonstrates how to build a chat application using:
 ![Create Keyset Dialog](screenshot/keyset-create_new_app_dialog.png)
 
 1. Select previously created App and create a new keyset.
-
-![Create Keyset](screenshot/keyset-new_app.png) | ![Doctor Dashboard](screenshot/keyset-create_new_keyset.png) |
---- | ---- |
+![Doctor Dashboard](screenshot/keyset-create_new_keyset.png)
 
 1. Provide name of your keyset and click **Create**.
 ![Create Keyset Dialog](screenshot/keyset-create_new_keyset_dialog.png)
@@ -61,7 +59,6 @@ The application demonstrates how to build a chat application using:
 ![Enable Files](screenshot/keyset-files.png)
 
 1. Save changes.
-![Save Changes](screenshot/keyset-save_changes.png)
 
 ## Running the project
 
