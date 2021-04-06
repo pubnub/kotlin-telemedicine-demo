@@ -2,11 +2,7 @@
 
 [![Build Status](https://travis-ci.com/pubnub/kotlin-telemedicine-demo.svg?branch=master)](https://travis-ci.com/pubnub/kotlin-telemedicine-demo)
 
-The DrChat app demonstrates how to build a feature-rich chat and team collaboration application
-using [PubNub Chat](https://www.pubnub.com/docs/chat/quickstart) and [PubNub Kotlin SDK](https://www.pubnub.com/docs/sdks/kotlin). Learn how to manage users, join
-chat rooms, and send messages with PubNub. Learn how to build advanced features like profanity
-filtering, gifs, and link previews. You can download the project to run on your local machine, and
-explore the code to see how we built it.
+The DrChat app demonstrates how to build a feature-rich telemedicine chat application using [PubNub Chat](https://www.pubnub.com/docs/chat/quickstart) and [PubNub Kotlin SDK](https://www.pubnub.com/docs/sdks/kotlin). Learn how to add private messaging for patients and doctors and group messaging for doctors to talk about cases. Learn how to build advanced features like online/offline presence indicators, typing indicators, read receipts, and file upload. You can download the project to run on your local machine, and explore the code to see how we built it.
 
 ![Login View](screenshot/login.png) | ![Doctor Dashboard](screenshot/cases.png) | ![Group Chat](screenshot/group-chat.png) |
 --- | ---- | ---- |
@@ -26,7 +22,7 @@ The application demonstrates how to build a chat application using:
 - Encrypted messages for privacy
 - Offline / online presence indicator
 - Typing indicators to show activity 
-- Message receipts in 1:1 messaging
+- Message read receipts in 1:1 messaging
 - File upload to share images and files
 
 ## Requirements
