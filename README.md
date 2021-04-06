@@ -59,6 +59,7 @@ The application demonstrates how to build a chat application using:
 ![Enable Files](screenshot/keyset-files.png)
 
 1. Save changes.
+![Save Changes](screenshot/keyset-save_changes.png)
 
 ## Running the project
 
