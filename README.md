@@ -36,19 +36,11 @@ The application demonstrates how to build a chat application using:
 
 1. Navigate to the [PubNub Dashboard](https://dashboard.pubnub.com/) and login to your account. 
 
-1. Select Apps and click on **Create New App** button. 
-![Create App](screenshot/keyset-create_new_app.png)
+1. Select an App or create a new App. 
 
-1. Provide your application name and click **Create**.
-![Create Keyset Dialog](screenshot/keyset-create_new_app_dialog.png)
+1. Select a Keyset or create a new Keyset.
 
-1. Select previously created App and create a new keyset.
-![Doctor Dashboard](screenshot/keyset-create_new_keyset.png)
-
-1. Provide name of your keyset and click **Create**.
-![Create Keyset Dialog](screenshot/keyset-create_new_keyset_dialog.png)
-
-1. Enable **Presence**, **Storage & Playback**, **Files** feature and select the nearest region.
+1. Enable **Presence**, **Storage & Playback**, **Files** features and select the nearest region.
 ![Enable Presence](screenshot/keyset-presence.png)
 ![Enable Storage](screenshot/keyset-storage.png)
 ![Enable Files](screenshot/keyset-files.png)
@@ -71,7 +63,7 @@ The application demonstrates how to build a chat application using:
     npm install
     ```
 
-1. Start the initialization. You'll be asked to enter your publish and subscribe keys from
+1. Start the initialization. You'll be asked to enter your Publish Key and Subscribe Key from
    the [PubNub Dashboard](https://dashboard.pubnub.com/). You can also optional pass a cipher key 
    to enable message encryption.
 
