@@ -59,8 +59,7 @@ const getKeys = async () => {
 
   if (
     env[PUBLISH_KEY] &&
-    env[SUBSCRIBE_KEY] &&
-    env[CIPHER_KEY]
+    env[SUBSCRIBE_KEY]
   ) {
     if (process.argv[2] === "--quick-test") {
       console.log("Keys detected in "+PROPERTIES);
@@ -96,7 +95,7 @@ const getKeys = async () => {
   // append to gradle.properties
   fs.writeFileSync(
     PROPERTIES,
-    `\${PUBLISH_KEY}=${result.publishKey}\n${SUBSCRIBE_KEY}=${result.subscribeKey}\n${CIPHER_KEY}=${result.cipherKey}`,
+    `\n# PubNub Keys\n${PUBLISH_KEY}=${result.publishKey}\n${SUBSCRIBE_KEY}=${result.subscribeKey}\n${CIPHER_KEY}=${result.cipherKey}\n`,
     { flag: "a" }
   );
   console.log("\n Your keys have been saved to "+PROPERTIES);
