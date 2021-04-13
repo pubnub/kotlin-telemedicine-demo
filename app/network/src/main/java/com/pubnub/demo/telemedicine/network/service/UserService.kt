@@ -9,7 +9,7 @@ import com.pubnub.demo.telemedicine.repository.UserRepository
 import com.pubnub.framework.PubNubFramework
 import com.pubnub.framework.data.UserId
 import com.pubnub.framework.util.Framework
-import com.pubnub.util.flow.coroutine
+import com.pubnub.framework.util.flow.coroutine
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import timber.log.Timber
 

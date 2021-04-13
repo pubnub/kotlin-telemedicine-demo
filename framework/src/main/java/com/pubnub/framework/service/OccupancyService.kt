@@ -7,9 +7,9 @@ import com.pubnub.framework.data.OccupancyMap
 import com.pubnub.framework.data.UserId
 import com.pubnub.framework.mapper.OccupancyMapper
 import com.pubnub.framework.util.Framework
-import com.pubnub.util.flow.coroutine
-import com.pubnub.util.flow.event
-import com.pubnub.util.flow.presence
+import com.pubnub.framework.util.flow.coroutine
+import com.pubnub.framework.util.flow.event
+import com.pubnub.framework.util.flow.presence
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview

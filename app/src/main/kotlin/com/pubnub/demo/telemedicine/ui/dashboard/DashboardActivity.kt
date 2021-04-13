@@ -33,7 +33,8 @@ class DashboardActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        synchronizationService.start()
+//        Channel synchronization is disabled (no dynamic data)
+//        synchronizationService.start()
 
         val user = runBlocking { userRepository.getUserByUuid(userId) }
             ?: throw Exception("User not found")

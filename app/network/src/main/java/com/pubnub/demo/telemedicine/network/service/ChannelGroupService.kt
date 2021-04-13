@@ -5,7 +5,7 @@ import com.pubnub.demo.telemedicine.data.channel.ChannelGroupData
 import com.pubnub.demo.telemedicine.repository.ChannelGroupRepository
 import com.pubnub.demo.telemedicine.repository.ChannelRepository
 import com.pubnub.framework.PubNubFramework
-import com.pubnub.util.flow.single
+import com.pubnub.framework.util.flow.single
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import timber.log.Timber
 

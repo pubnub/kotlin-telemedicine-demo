@@ -15,9 +15,9 @@ import com.pubnub.demo.telemedicine.network.util.toJson
 import com.pubnub.demo.telemedicine.repository.MessageRepository
 import com.pubnub.framework.PubNubFramework
 import com.pubnub.framework.mapper.Mapper
-import com.pubnub.util.flow.event
-import com.pubnub.util.flow.message
-import com.pubnub.util.flow.single
+import com.pubnub.framework.util.flow.event
+import com.pubnub.framework.util.flow.message
+import com.pubnub.framework.util.flow.single
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
@@ -123,7 +123,6 @@ class MessageService<T : Any>(
                     },
                     onError = { exception ->
                         Timber.i("Message sending error, result: $exception")
-                        exception.printStackTrace()
 
                         // Set message status in repository
                         GlobalScope.launch(Dispatchers.IO) {

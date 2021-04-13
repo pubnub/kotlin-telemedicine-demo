@@ -5,9 +5,9 @@ import com.pubnub.api.models.consumer.pubsub.PNSignalResult
 import com.pubnub.framework.PubNubFramework
 import com.pubnub.framework.data.ChannelId
 import com.pubnub.framework.data.Typing
-import com.pubnub.util.flow.event
-import com.pubnub.util.flow.signal
-import com.pubnub.util.flow.single
+import com.pubnub.framework.util.flow.event
+import com.pubnub.framework.util.flow.signal
+import com.pubnub.framework.util.flow.single
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.filter

@@ -5,8 +5,8 @@ import com.pubnub.demo.telemedicine.initialization.data.Signal
 import com.pubnub.framework.PubNubFramework
 import com.pubnub.framework.data.ChannelId
 import com.pubnub.framework.data.UserId
-import com.pubnub.util.flow.event
-import com.pubnub.util.flow.signal
+import com.pubnub.framework.util.flow.event
+import com.pubnub.framework.util.flow.signal
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
