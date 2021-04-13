@@ -30,7 +30,7 @@ The application demonstrates how to build a chat application using:
 - [Node.js](https://nodejs.org/en/)
 - [PubNub Account](https://dashboard.pubnub.com/)
 - [PubNub Kotlin SDK 5.1.3+](https://www.pubnub.com/docs/sdks/kotlin)
-- [Android Studio Canary 8](https://developer.android.com/studio/preview)
+- [Android Studio Canary 14](https://developer.android.com/studio/preview)
 
 ## PubNub KeySet 
 
@@ -71,12 +71,26 @@ The application demonstrates how to build a chat application using:
     npm start
     ```
 
-1. Start Android Studio and open a project. Please connect your Android phone or start an emulator
-   and run application with default settings. To run application on both emulators you can use 
+1. Start Android Studio and open a project. Wait until the gradle sync process is over.
+
+1. Select the default configuration if it's available or create the new one.
+   ![Select Configuration](screenshot/as-select_configuration.png)
+   
+   To add a new configuration click on **Add Configuration** / **+** and select **Android App**.
+   ![Select Configuration](screenshot/as-configuration_template.png)
+   
+   Please enter your configuration name, select **Telemedicine.app** in Module and click **OK**.
+   ![Configuration](screenshot/as-configuration.png)
+   
+1. Please connect your Android phone or start an emulator and run application with selected 
+   configuration. To run application on both emulators you can use 
    **Select Multiple Devices**.
    ![Run on Multiple Devices](screenshot/as-run_multiple_devices.png)
    
    If you need to create new emulator please check next section.
+   
+
+
 
 ## Creating an emulator
 
