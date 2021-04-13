@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.sp
 import coil.request.ImageRequest
 import coil.transform.CircleCropTransformation
 import com.pubnub.demo.telemedicine.util.CenterInside
-import dev.chrisbanes.accompanist.coil.CoilImage
+import com.google.accompanist.coil.CoilImage
 
 val HEADER_HEIGHT = 234.dp
 

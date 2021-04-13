@@ -19,7 +19,7 @@ import coil.transform.CircleCropTransformation
 import com.pubnub.demo.telemedicine.util.CenterInside
 import com.pubnub.framework.ui.theme.green
 import com.pubnub.framework.ui.theme.red
-import dev.chrisbanes.accompanist.coil.CoilImage
+import com.google.accompanist.coil.CoilImage
 
 @Composable
 fun UserProfileImage(

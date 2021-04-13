@@ -34,7 +34,7 @@ import coil.request.ImageRequest
 import coil.transform.CircleCropTransformation
 import com.pubnub.demo.telemedicine.ui.Background
 import com.pubnub.demo.telemedicine.util.CenterInside
-import dev.chrisbanes.accompanist.coil.CoilImage
+import com.google.accompanist.coil.CoilImage
 
 @Composable
 fun Drawer(
