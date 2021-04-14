@@ -56,7 +56,7 @@ interface MessageDao {
     @Query("SELECT * FROM message WHERE channelId LIKE :channelId ORDER BY timestamp DESC LIMIT :count")
     fun getLastByChannel(channelId: String, count: Long): Flow<List<MessageWithActions>>
 
-    @Insert(onConflict = OnConflictStrategy.ABORT)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(vararg message: MessageData)
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
