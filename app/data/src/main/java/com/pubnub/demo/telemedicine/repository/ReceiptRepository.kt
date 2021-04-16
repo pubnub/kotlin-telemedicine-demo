@@ -15,6 +15,7 @@ interface ReceiptRepository {
     suspend fun isDelivered(channelId: String, messageTimestamp: Long, userId: UserId): Boolean
     suspend fun isRead(channelId: String, messageTimestamp: Long, userId: UserId): Boolean
     suspend fun getLastRead(channelId: String, userId: UserId): Flow<ReceiptData?>
+    suspend fun getLastConfirmed(channelId: String, userId: UserId): Flow<ReceiptData?>
     suspend fun add(vararg data: ReceiptData)
     suspend fun update(vararg data: ReceiptData)
     suspend fun insertUpdate(vararg data: ReceiptData)
