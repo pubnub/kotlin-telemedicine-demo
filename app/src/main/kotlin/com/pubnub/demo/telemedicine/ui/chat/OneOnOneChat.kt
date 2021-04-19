@@ -48,6 +48,7 @@ import org.joda.time.LocalDate
 fun OneOnOneChat(
     messages: Flow<PagingData<Message>>,
     lastRead: Long,
+    lastConfirmed: Long,
     onMessageRead: (Timetoken) -> Unit,
     currentUserId: String,
     scrollState: ScrollState,
@@ -60,6 +61,15 @@ fun OneOnOneChat(
                 rememberLazyListState(initialFirstVisibleItemIndex = lazyMessages.itemCount)
 
             LazyColumn(state = lazyListState, reverseLayout = true) {
+
+                // Set read action
+                lazyMessages.snapshot().items
+                    .filter { it.authorId != currentUserId && it.timestamp > lastConfirmed }
+                    .maxOfOrNull { it.timestamp }
+                    ?.also {
+                        onMessageRead(it)
+                    }
+
                 itemsIndexed(lazyMessages) { index, message ->
                     if (message == null) return@itemsIndexed
 
@@ -69,13 +79,11 @@ fun OneOnOneChat(
                     val prevAuthor = prevMessage?.authorId
                     val nextAuthor = nextMessage?.authorId
 
-//                val prevDay = prevMessage?.timestamp?.seconds?.run { LocalDate(this) }
                     val currentDay = LocalDate(message.timestamp.seconds)
                     val nextDay = nextMessage?.timestamp?.seconds?.run { LocalDate(this) }
 
                     val isOwn = message.authorId == currentUserId
                     val isFirstMessageByAuthor = nextAuthor != message.authorId
-                    val isLastMessageByAuthor = prevAuthor != message.authorId
 
                     // REVERSED LAYOUT: don't draw a header
                     val isDayChanged =
@@ -86,10 +94,6 @@ fun OneOnOneChat(
                     val status =
                         if (isRead) ReceiptData.Type.READ else if (isDelivered) ReceiptData.Type.DELIVERED else null
 
-                    // Set read action
-                    if (index == 0 && !isOwn && !isRead) {
-                        onMessageRead(message.timestamp)
-                    }
                     // First space between input and message
                     if (index == 0) Spacer(modifier = Modifier.height(5.dp))
                     Box(

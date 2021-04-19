@@ -69,7 +69,10 @@ class ReceiptService(
     }
 
     suspend fun getLastRead(channelId: ChannelId, userId: UserId) =
-        receiptRepository.getLastRead(channelId, userId).mapNotNull { it?.actionTimestamp }
+        receiptRepository.getLastRead(channelId, userId).mapNotNull { it?.messageTimestamp }
+
+    suspend fun getLastConfirmed(channelId: ChannelId, userId: UserId) =
+        receiptRepository.getLastConfirmed(channelId, userId).mapNotNull { it?.messageTimestamp }
 
     suspend fun synchronize(channelId: ChannelId, lastTimestamp: Long? = null) {
         Timber.e("Sync receipts for channel '$channelId'")
