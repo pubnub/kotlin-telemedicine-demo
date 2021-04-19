@@ -54,7 +54,13 @@ class ReceiptRepositoryImpl(
         channelId: String,
         userId: UserId,
     ): Flow<ReceiptData?> =
-        receiptDao.getLast(userId, channelId, type = ReceiptData.Type.READ)
+        receiptDao.getLastRead(userId, channelId, type = ReceiptData.Type.READ)
+
+    override suspend fun getLastConfirmed(
+        channelId: String,
+        userId: UserId,
+    ): Flow<ReceiptData?> =
+        receiptDao.getLastConfirmed(userId, channelId, type = ReceiptData.Type.READ)
 
     @Synchronized
     override suspend fun add(vararg data: ReceiptData) {

@@ -62,6 +62,7 @@ fun ChatView(
             OneOnOneChat(
                 messages = uiState.messages,
                 lastRead = uiState.lastReadTimestamp.value,
+                lastConfirmed = uiState.lastConfirmedTimestamp.value,
                 onMessageRead = onRead,
                 currentUserId = currentUserId,
                 modifier = innerModifier,

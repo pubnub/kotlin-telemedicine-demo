@@ -1,41 +1,71 @@
 task pushPhotos {
     doLast {
-        println 'Copy files to device Download directory'
+        println 'Copy files to device Pictures directory'
         def rawPath = 'src/main/res/raw'
         def destinationPath = '/storage/emulated/0/Pictures'
-
         def intent = 'android.intent.action.MEDIA_SCANNER_SCAN_FILE'
 
+        // Filter all jpg files from RAW directory
         def files = fileTree(dir: rawPath).matching {
             include "**/*.jpg"
         }.filter {
             it.isFile()
         }.files
 
-        files.each { file ->
-            def destinationFile = "${destinationPath}/${file.name}"
-            println "Copy ${file} -> ${destinationFile}"
+        // Get a list of connected devices
+        def output = new ByteArrayOutputStream()
+        project.exec({
+            def getDevicesCommand = [project.android.getAdbExe().toString(), 'devices']
+            commandLine getDevicesCommand
+            standardOutput = output
+        })
+        def devices = output.toString().split("\n")
 
-            // copy files to destination
-            project.exec({
-                workingDir(project.projectDir)
-                def clearDataCommand = [project.android.getAdbExe().toString(), 'push', '--sync', file, destinationPath]
-                commandLine clearDataCommand
-            })
+        // Iterate over devices
+        for(device in devices) {
+            if(!device.endsWith("device")) continue
 
-            // send Intent to refresh Gallery
-            println "> send refresh Intent to Gallery"
+            def deviceName = device.split()[0]
+            println "Device $deviceName"
+
+            // Check is Pictures directory empty
+            output = new ByteArrayOutputStream()
             project.exec({
-                workingDir(project.projectDir)
-                def script = "am broadcast -a '${intent}' -d 'file://${destinationFile}'"
-                def notifyCommand = [project.android.getAdbExe().toString(), 'shell', script]
-                commandLine notifyCommand
+                def checkFilesCommand = [project.android.getAdbExe().toString(), '-s', deviceName, 'shell', "ls $destinationPath | wc -l"]
+                commandLine checkFilesCommand
+                standardOutput = output
             })
+            def filesCount = output.toString() as Integer
+            if(filesCount > 0) {
+                println("Found Pictures: $filesCount, skipping...")
+                continue
+            }
+
+            // Iterate over files
+            files.each { file ->
+                def destinationFile = "${destinationPath}/${file.name}"
+                println "Copy ${file} -> ${destinationFile}"
+
+                // Copy files to destination
+                project.exec({
+                    workingDir(project.projectDir)
+                    def clearDataCommand = [project.android.getAdbExe().toString(), '-s', deviceName, 'push', '--sync', file, destinationPath]
+                    commandLine clearDataCommand
+                })
+
+                // Send Intent to refresh Gallery
+                println "> send refresh Intent to Gallery"
+                project.exec({
+                    workingDir(project.projectDir)
+                    def script = "am broadcast -a '${intent}' -d 'file://${destinationFile}'"
+                    def notifyCommand = [project.android.getAdbExe().toString(), '-s', deviceName, 'shell', script]
+                    commandLine notifyCommand
+                })
+            }
         }
     }
 }
 
-afterEvaluate {
-//    installDebug.dependsOn pushPhotos
-    //assembleDebug.dependsOn pushPhotos
-}
+//afterEvaluate {
+//    assembleDebug.dependsOn pushPhotos
+//}

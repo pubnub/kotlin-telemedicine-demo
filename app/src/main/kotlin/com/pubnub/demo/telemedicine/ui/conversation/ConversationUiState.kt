@@ -16,6 +16,7 @@ data class ConversationUiState(
     val channelDescription: String,
     val messages: Flow<PagingData<Message>>,
     val lastReadTimestamp: State<Long>,
+    val lastConfirmedTimestamp: State<Long> = mutableStateOf(0L),
     val occupants: State<List<UserId>> = mutableStateOf(emptyList()),
 )
 

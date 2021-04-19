@@ -13,6 +13,7 @@ import androidx.compose.runtime.remember
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.ViewModel
 import androidx.paging.PagingData
+import com.pubnub.demo.telemedicine.data.message.ReceiptData
 import com.pubnub.demo.telemedicine.mapper.CaseMapperImpl
 import com.pubnub.demo.telemedicine.mapper.ChatMapperImpl
 import com.pubnub.demo.telemedicine.mapper.MessageMapperImpl.Companion.toDb
@@ -77,7 +78,8 @@ class ConversationViewModel @ViewModelInject constructor(
 
         val lastRead = getLastRead(channelId = channelId, userId = userId)
             .collectAsState(initial = 0L)
-
+        val lastConfirmed = getLastConfirmed(channelId = channelId, userId = userId)
+            .collectAsState(initial = 0L)
         val messages = getMessages(channelId = channelId)
 
         val occupancy = occupancyService.getOccupancy(channelId).map { it.list ?: emptyList() }
@@ -90,6 +92,7 @@ class ConversationViewModel @ViewModelInject constructor(
                 channelName = channelName,
                 channelDescription = channelDescription,
                 lastReadTimestamp = lastRead,
+                lastConfirmedTimestamp = lastConfirmed,
                 occupants = occupancy
             )
         }
@@ -204,6 +207,9 @@ class ConversationViewModel @ViewModelInject constructor(
     // region Receipts
     fun getLastRead(channelId: String, userId: UserId): Flow<Long> =
         runBlocking { receiptService.getLastRead(channelId, userId) }
+
+    fun getLastConfirmed(channelId: String, userId: UserId): Flow<Long> =
+        runBlocking { receiptService.getLastConfirmed(channelId, userId) }
 
     fun navigateToPatientInfo(caseId: ChannelId) {
         context.startActivity(
