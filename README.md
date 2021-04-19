@@ -89,8 +89,13 @@ The application demonstrates how to build a chat application using:
    
    If you need to create new emulator please check next section.
    
-
-
+1. Push random images to device Pictures directory. You can do it directly from Android Studio 
+   Terminal or system Terminal.
+   
+   ```bash
+   cd kotlin-telemedicine-demo
+   ./gradlew pushPhotos
+   ```
 
 ## Creating an emulator
 

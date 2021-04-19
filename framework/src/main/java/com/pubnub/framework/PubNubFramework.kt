@@ -10,6 +10,7 @@ object PubNubFramework {
     private lateinit var pubNub: PubNub
 
     val userId get() = pubNub.configuration.uuid
+    val cipherKey get() = try { pubNub.configuration.cipherKey } catch (e: Exception){ null }
 
     val instance
         get() =
