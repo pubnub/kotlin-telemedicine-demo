@@ -28,7 +28,7 @@ class FileService {
             message = message,
             shouldStore = false,
             meta = meta,
-            cipherKey = pubNub.configuration.cipherKey,
+            cipherKey = PubNubFramework.cipherKey,
         ).coroutine()
 
     suspend fun list(channel: ChannelId, limit: Int? = null, next: PNPage.PNNext? = null) =
